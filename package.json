@@ -1,0 +1,23 @@
+{
+  "name": "rychagov.info",
+  "version": "1.0.0",
+  "description": "My CV site",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mixrich/mixrich.github.io.git"
+  },
+  "author": "mrychagov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mixrich/mixrich.github.io/issues"
+  },
+  "homepage": "https://github.com/mixrich/mixrich.github.io#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-ejs": "^2.1.1"
+  }
+}

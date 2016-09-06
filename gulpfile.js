@@ -2,7 +2,7 @@ var gulp = require('gulp');
 
 // require my custom task-functions
 var compileEjs = require('./gulpTasks/compileEjs');
-//var compileCSS = require('./gulpTasks/compileCSS'); //don't use because stylus
+var compileCSS = require('./gulpTasks/compileCSS'); //don't use because stylus
 var compileStylus = require('./gulpTasks/compileStylus');
 var compileJS = require('./gulpTasks/compileJS');
 var deploy = require('./gulpTasks/deploy');
@@ -14,12 +14,9 @@ var browserSync = require('browser-sync').create();
 
 //simple tasks
 
-
-/*
-/don't use because stylus
 gulp.task('compile-css', function () {
   return compileCSS();
-});*/
+});
 
 gulp.task('sitemap', function () {
   return sitemap();
@@ -31,9 +28,9 @@ gulp.task('compile-ejs', function () {
 });
 
 // compile stylus styles from src/css-stylus/_index.styl to dist/css/style.min.css
-gulp.task('compile-stylus', function () {
+/*gulp.task('compile-stylus', function () {
   return compileStylus();
-});
+});*/
 
 gulp.task('compile-js', function () {
   return compileJS.compile();
@@ -50,12 +47,12 @@ gulp.task('optimize-pictures', function(){
 });
 
 // build don't use manualy
-gulp.task('build', ['compile-ejs', 'compile-stylus','compile-js','copy-requirejs', 'optimize-pictures']);
+gulp.task('build', ['compile-ejs', 'compile-css','compile-js','copy-requirejs', 'optimize-pictures']);
 
 
 // wath changes in all files from 'src' and build
 gulp.task('watch', function(){
-  gulp.watch('./src/**/*.*', [/*'build'*/'compile-ejs', 'compile-stylus', 'compile-js']);
+  gulp.watch('./src/**/*.*', [/*'build'*/'compile-ejs', 'compile-css', 'compile-js']);
 });
 
 // run server from dist and refresh

@@ -1,0 +1,53 @@
+.dimmer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(5,5,5,0.3);/*
+  text-align: center;*/
+
+  &__content {
+    background: white;
+    padding: 30px 40px;
+    max-width: 300px;
+    max-height: 500px;
+
+    /*border: 1px solid lightColor;
+  */  borderRadius(10px);
+    box-shadow: 0 0 15px 0 darkColor;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    margin: 0 auto;
+    translateXY(-50%, 0);
+
+
+  }
+
+  &__close-button {
+    color: mediumColor;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: rgba(255,255,205,0.1);
+    border: none;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    &:hover {
+      cursor: pointer;
+        background: rgba(255,255,205,0.2);
+    }
+  }
+
+  &__text {
+    margin: 0 0 10px 0;
+  }
+
+
+  &--hidden {
+    display: none;
+  }
+
+}

@@ -1,0 +1,40 @@
+.button-contrast {
+  background-color: contrastColor;
+  border: none;
+  border-radius: borderRadius;
+  color: darkColor;
+  box-shadow: 0 4px 0 0 contrastColorDark;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:active {
+    box-shadow: none;
+    margin-top: 4px;
+    margin-bottom: -4px;
+  }
+}
+
+
+
+.action-button {
+    background: #fcc700;
+    color: #262936;
+    box-shadow: 0 0 2px black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 300px;
+
+    &:hover {
+      box-shadow: 0 0 8px black;
+    }
+
+    &--centered {
+      margin: 0 auto;
+      display: block;
+    }
+}

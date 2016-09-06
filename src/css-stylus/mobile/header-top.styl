@@ -1,0 +1,67 @@
+.header-top {
+
+}
+
+
+
+.call-order {
+  position: static;
+  display: block;
+  float: none;
+  height: auto;
+
+  &__contacts--container, &__button--container {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  &__contacts {
+
+    &--container {
+      padding-right: 20px;
+      font-family: "Open Sans",sans-serif;
+    }
+
+    &__phone {
+      font-size: 1rem;
+    }
+
+    &__schedule {
+      font-size: 0.8rem;
+    }
+  }
+
+}
+
+
+.nav {
+  float: none;
+  margin-bottom: 15px;
+
+  &-container {
+    margin: 0;
+    padding: 10px 0;
+    list-style: none;
+
+  }
+
+  &__menu-item {
+    display: inline-block;
+    margin-right: 15px;
+    vertical-align: middle;
+
+    &__link {
+      text-decoration: none;
+      font-weight: bold;
+
+      &:hover {
+        text-decoration: none;
+        color: headerTextHoverColor;
+      }
+
+    }
+
+  }
+
+
+}

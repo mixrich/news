@@ -71,5 +71,5 @@ gulp.task('dev', ['watch', 'serve']);
 
 
 gulp.task('deploy', function () {
-  return deploy({branch: 'master'});
+  return deploy({branch: 'gh-pages'});
 });

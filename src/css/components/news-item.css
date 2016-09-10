@@ -7,8 +7,10 @@
     margin-bottom: 20px;
     background-color: white;
     float: left;
-
+    display: block;
+    color: black;
     box-sizing: border-box;
+    text-decoration: none;
 
 }
 
@@ -18,6 +20,11 @@
     max-height: 175px;
     overflow: hidden;
     position: relative;
+}
+
+.news-item__photo {
+    width: 100%;
+    height: auto;
 }
 
 .news-item__label {
@@ -34,10 +41,7 @@
 }
 
 
-.news-item__photo {
-    width: 100%;
-    height: auto;
-}
+
 
 .news-item__content {
     padding: 20px;
@@ -66,10 +70,20 @@
     color: #a7a7a7;
 }
 
+
+
 .news-item_special .news-item__label {
     background-color: #0fff00;
     color: #1a1917;
 }
+
+
+
+
+
+
+
+
 
 
 @media all and (max-width: 1380px) {

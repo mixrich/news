@@ -1,10 +1,12 @@
 <div class="wrapper">
     <div class="news-item-wrapper clearfix">
 
-    <% for (var i=0; i<20; i++) { %>
-        <%- include('../common/news-item', {
-            index: i
-        }) %>
+    <% for (var i=0; i<6; i++) { %>
+        <%- include('../common/news-item') %>
+        <%- include('../common/news-item_no-photo') %>
+        <%- include('../common/news-item_special') %>
+        <%- include('../common/news-item_no-photo_special') %>
+        <%- include('../common/news-item_affiche') %>
     <% } %>
     </div>
 

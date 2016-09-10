@@ -2,9 +2,9 @@
     <div class="news-item-wrapper clearfix">
 
     <% for (var i=0; i<20; i++) { %>
-        <div class="news-item">
-        <%= i %>
-        </div>
+        <%- include('../common/news-item', {
+            index: i
+        }) %>
     <% } %>
     </div>
 

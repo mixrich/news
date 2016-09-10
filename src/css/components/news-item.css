@@ -11,15 +11,45 @@
     color: black;
     box-sizing: border-box;
     text-decoration: none;
-
 }
+
+.news-item:hover {
+    background: #1a1917;
+    color: white;
+    cursor: pointer;
+}
+
+.news-item:hover .news-item__label-container::before {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+    background-color: rgba(0,0,0,0.2);
+}
+
+
+
+.news-item_special {
+    text-align: center;
+}
+
 
 .news-item__label-container {
     width: 100%;
-    min-height: 40px;
-    max-height: 175px;
+    height: 175px;
+    background-position: center;
+    background-size: cover;
     overflow: hidden;
+    padding: 20px 20px 0 20px;
+    box-sizing: border-box;
     position: relative;
+}
+
+.news-item_no-photo .news-item__label-container {
+    height: 38px;
 }
 
 .news-item__photo {
@@ -29,10 +59,8 @@
 
 .news-item__label {
     text-transform: uppercase;
-    position: absolute;
     display: inline-block;
-    top:20px;
-    left: 20px;
+    vertical-align: top;
     font-size: 10px;
     color: #f0f0f0;
     background-color: black;
@@ -40,11 +68,9 @@
     line-height: 18px;
 }
 
-
-
-
 .news-item__content {
     padding: 20px;
+    padding-top: 15px;
 }
 
 .news-item__title {
@@ -61,7 +87,7 @@
     height: 0;
     border-bottom: 1px solid #e6e6e6;
     padding-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .news-item__author {
@@ -77,12 +103,61 @@
     color: #1a1917;
 }
 
+.news-item_special .news-item__label-container {
+    text-align: left;
+}
+
+.news-item_special.news-item_no-photo .news-item__label-container {
+    text-align: center;
+}
+
+.news-item_special .news-item__divider {
+    border-color: #0fff00;
+}
+
+.news-item_special:hover {
+    background: #ff00ff;
+    color: black;
+    cursor: pointer;
+}
+
+.news-item_special:hover .news-item__label {
+    background: #ff00ff;
+}
+
+.news-item_special:hover .news-item__divider {
+    border-color: black;
+}
+
+.news-item_special:hover .news-item__author {
+    color: black;
+}
+
+.news-item_special:hover .news-item__label-container::before {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+    background-color: rgba(255,0,255,0.2);
+}
 
 
 
 
+.news-item_affiche .news-item__label {
+    background-color: #cb2026;
+    color: white;
+}
 
 
+
+
+.news-item_no-photo:hover .news-item__label-container::before {
+    display: none;
+}
 
 
 

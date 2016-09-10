@@ -1,5 +1,9 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Fira Sans';
+.news-item-wrapper {
+    margin-right: -20px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }

@@ -1,2 +1,9 @@
+@import "libs/reset.css";
+
+
+
 @import "components/_common.css";
 @import "components/header.css";
+@import "components/body.css";
+@import "components/news-item.css";
+@import "components/wrapper.css";

@@ -1,0 +1,16 @@
+.header-top-menu {
+    font-size: 16px;
+}
+
+.header-top-menu__item {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-right: 28px;
+}
+
+.header-top-menu__link {
+    color: #1a1917;
+    text-decoration: none;
+    font-weight: bold;
+
+}

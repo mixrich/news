@@ -1,0 +1,25 @@
+.header-bottom-menu {
+    list-style: disc;
+    font-size: 14px;
+}
+
+.header-bottom-menu__item {
+    display: inline-block;
+}
+
+.header-bottom-menu__item:not(:first-child):before {
+    width: 4px;
+    height: 4px;
+    content: " ";
+    display: inline-block;
+    background: #999999;
+    margin: 0 10px 0 8px;
+    border-radius: 50%;
+    margin-bottom: 2px;
+
+}
+
+.header-bottom-menu__link {
+    color: #1a1917;
+    text-decoration: none;
+}

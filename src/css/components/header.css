@@ -1,3 +1,35 @@
-header {
-    
+.header {
+    background: white;
+    border-bottom: 2px solid #e6e6e6;
+}
+
+.header__logo {
+    width: 130px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.header__nav {
+    width: calc(100% - 200px);
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 2px;
+}
+
+.header__age {
+    float: right;
+    width: 60px;
+    height: 60px;
+    background: #f7f7f7;
+    text-align: center;
+
+    margin: -5px 0;
+}
+
+.header__age span {
+    font-size: 24px;
+    line-height: 60px;
+    font-weight: bold;
+    color: #999999;
 }

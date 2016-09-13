@@ -9,3 +9,9 @@
 @import "components/wrapper.css";
 @import "components/header-top-menu.css";
 @import "components/header-bottom-menu.css";
+
+
+@import "components/article.css";
+@import "components/social-button_share.css";
+@import "components/quote.css";
+@import "components/reference.css";

@@ -1,0 +1,98 @@
+.reference {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  min-height: 100px;
+  padding: 20px 0 20px 20px;
+  background: #f7f7f7;
+  text-transform: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.reference:before,
+.reference:after {
+  content: '';
+  position: absolute;
+  left: 100%;
+  width: 20px;
+  height: 50%;
+  background: #f7f7f7;
+}
+.reference:before {
+  top: 0;
+  -webkit-transform-origin: 0 100%;
+  -moz-transform-origin: 0 100%;
+  -o-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+  -webkit-transform: skewX(20deg);
+  -moz-transform: skewX(20deg);
+  -o-transform: skewX(20deg);
+  -ms-transform: skewX(20deg);
+  transform: skewX(20deg);
+}
+.reference:after {
+  bottom: 0;
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -webkit-transform: skewX(-20deg);
+  -moz-transform: skewX(-20deg);
+  -o-transform: skewX(-20deg);
+  -ms-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+}
+
+.reference:hover,
+.reference:hover:before,
+.reference:hover:after {
+  background: #ff00ff;
+  cursor: pointer;
+}
+
+.reference:hover .reference__author {
+  color: #ffffff;
+}
+
+.reference:hover .reference__link-name {
+  text-decoration: underline;
+}
+
+.reference .article__author__photo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.reference__author {
+  margin-left: 80px;
+  margin-right: 170px;
+  margin-top: -5px;
+  font-size: 14px;
+  line-height: 22px;
+  vertical-align: top;
+  color: #1a1917;
+}
+
+.reference__author__name {
+  font-weight: bold;
+}
+
+.reference__link {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 120px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #e6e6e6;
+}

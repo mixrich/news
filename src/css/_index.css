@@ -6,10 +6,12 @@
 @import "components/header.css";
 @import "components/body.css";
 @import "components/news-item.css";
+@import "components/news-item-wide.css";
 @import "components/wrapper.css";
 @import "components/header-top-menu.css";
 @import "components/header-bottom-menu.css";
 @import "components/footer.css";
+@import "components/tv-block.css";
 
 
 @import "components/article.css";

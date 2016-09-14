@@ -68,9 +68,10 @@
 }
 
 .reference__author {
-  margin-left: 80px;
+  margin: -5px 170px 0 80px;
+  /*margin-left: 80px;
   margin-right: 170px;
-  margin-top: -5px;
+  margin-top: -5px;*/
   font-size: 14px;
   line-height: 22px;
   vertical-align: top;

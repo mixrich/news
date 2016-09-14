@@ -1,0 +1,51 @@
+
+.subscribe-form__input-container {
+  margin-bottom: 7px;
+}
+
+.subscribe-form__email {
+  display: block;
+  float: left;
+  width: 300px;
+  height: 40px;
+  padding: 0 15px;
+  margin-right: 10px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 1px;
+}
+
+.subscribe-form__button {
+  display: block;
+  float: left;
+  width: 220px;
+  height: 40px;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 1px;
+  background: #0fff00;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.subscribe-form__button span {
+  font-family: 'Fira Sans';
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.subscribe-form__terms,
+.subscribe-form__terms__link {
+  margin: 0;
+  font-family: "Georgia", serif;
+  font-size: 12px;
+  line-height: 18px;
+  font-style: italic;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.subscribe-form__terms__link {
+  border-bottom: 1px solid #ffffff;
+}

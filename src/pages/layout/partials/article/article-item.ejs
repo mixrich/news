@@ -4,12 +4,12 @@
 
 <div class="wrapper article-wrapper">
 
-    <div class="article__news-panel_right">
+    <aside class="article__news-panel_right">
       <div class="fb-widget"></div>
       <%- include('../common/news-item') %>
       <%- include('../common/news-item_special') %>
       <%- include('../common/news-item_no-photo_special') %>
-    </div>
+    </aside>
 
     <article class="article__column-wrapper clearfix">
       <h1 class="article__title">
@@ -165,7 +165,7 @@
         <input class=" subscribe-form__email" type="text" name="email" placeholder="Введите Вашу почту">
         <button class="subscribe-form__button"><span>Подписаться на дайджест</span></button>
       </div>
-      <p class="subscribe-form__terms">Раз в неделю наши лучшие материалы в вашей почте, без надоедливого спама.</p>
+      <p class="subscribe-form__terms">Раз в неделю наши лучшие материалы в вашей почте, без надоедливого спама.<br/>
       <a href="#" class="subscribe-form__terms__link">Условия конфиденциальности</a></p>
     </form>
   </div>
@@ -181,4 +181,17 @@
   <% } %>
   </div>
   <div class="news-item__divider"></div>
+</div>
+<div class="wrapper clearfix">
+  <div class="article__comments-container">
+    <div class="article__news-panel_right">
+      <p style="font-weight: bold">Самые обсуждаемые:</p>
+      <p>Посмотри! 6 каменных памятников архитектуры, которые мы теряем</p>
+      <div class="news-item__divider"></div>
+      <p>Посмотри! 6 каменных памятников архитектуры, которые мы теряем</p>
+      <div class="news-item__divider"></div>
+      <p>Посмотри! 6 каменных памятников архитектуры, которые мы теряем</p>
+    </div>
+    <div class="article__comments-widget"></div>
+  </div>
 </div>

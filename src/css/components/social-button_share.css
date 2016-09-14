@@ -24,6 +24,8 @@
   margin-right: 5px;
   border-right: 1px solid #ffffff;
   vertical-align: middle;
+  background-repeat: no-repeat;
+  background-size: auto 25px;
 }
 
 .social-button_share__number {
@@ -37,30 +39,35 @@
   background: #44629e;
 }
 .social-button_share_fb .social-button_share__icon {
-  background: #44629e url("./../../images/icons/fb_icon.png") no-repeat;
-  background-size: contain;
+  background-image: url("./../../images/icons/fb_icon.png");
+  background-position: 5px center;
 }
 
 .social-button_share_vk {
   background: #51749c;
 }
 .social-button_share_vk .social-button_share__icon {
-  background: #51749c url("./../../images/icons/vk_icon.png") no-repeat;
-  background-size: contain;
+  background-image: url("./../../images/icons/vk_icon.png");
+  background-size: auto 22px;
+  background-position: 5px center;
+  /*background-size: contain;*/
 }
 
 .social-button_share_tw {
   background: #22b9eb;
 }
 .social-button_share_tw .social-button_share__icon {
-  background: #22b9eb url("./../../images/icons/tw_icon.png") no-repeat;
-  background-size: contain;
+  background-image: url("./../../images/icons/tw_icon.png");
+  background-size: auto 20px;
+  background-position: left center;
+  /*background-size: contain;*/
 }
 
 .social-button_share_ok {
   background: #ff671b;
 }
 .social-button_share_ok .social-button_share__icon {
-  background: #ff671b url("./../../images/icons/ok_icon.png") no-repeat;
-  background-size: contain;
+  background-image: url("./../../images/icons/ok_icon.png");
+  background-position: 5px center;
+  /*background-size: contain;*/
 }

@@ -1,5 +1,5 @@
 .quote {
-  padding: 40px 40px 36px 40px;
+  padding: 40px 40px 35px 40px;
   background: #f7f7f7;
 }
 
@@ -9,7 +9,7 @@
 }
 
 p.quote__text {
-  margin-top: 20px;
+  margin-top: 13px;
 }
 
 .quote__first-letter {

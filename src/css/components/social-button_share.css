@@ -1,5 +1,6 @@
 .social-button_share {
-  display: inline-block;
+  display: block;
+  float: left;
   width: 90px;
   height: 40px;
   padding: 5px;
@@ -7,6 +8,7 @@
   vertical-align: middle;
   border-radius: 1px;
   box-sizing: border-box;
+  position: relative;
 }
 
 .social-button_share:before {
@@ -18,18 +20,23 @@
 }
 
 .social-button_share__icon {
-  display: inline-block;
+  display: block;
   width: 30px;
-  height: 100%;
-  margin-right: 5px;
+  height: 30px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  /*margin-right: 5px;*/
   border-right: 1px solid #ffffff;
   vertical-align: middle;
   background-repeat: no-repeat;
+  background-position: center;
   background-size: auto 25px;
 }
 
 .social-button_share__number {
   display: inline-block;
+  margin-left: 40px;
   font-size: 14px;
   vertical-align: middle;
   color: #ffffff;
@@ -40,7 +47,7 @@
 }
 .social-button_share_fb .social-button_share__icon {
   background-image: url("./../../images/icons/fb_icon.png");
-  background-position: 5px center;
+  /*background-position: 5px center;*/
 }
 
 .social-button_share_vk {
@@ -49,8 +56,7 @@
 .social-button_share_vk .social-button_share__icon {
   background-image: url("./../../images/icons/vk_icon.png");
   background-size: auto 22px;
-  background-position: 5px center;
-  /*background-size: contain;*/
+  /*background-position: 5px center;*/
 }
 
 .social-button_share_tw {
@@ -59,8 +65,7 @@
 .social-button_share_tw .social-button_share__icon {
   background-image: url("./../../images/icons/tw_icon.png");
   background-size: auto 20px;
-  background-position: left center;
-  /*background-size: contain;*/
+  /*background-position: left center;*/
 }
 
 .social-button_share_ok {
@@ -68,6 +73,24 @@
 }
 .social-button_share_ok .social-button_share__icon {
   background-image: url("./../../images/icons/ok_icon.png");
-  background-position: 5px center;
-  /*background-size: contain;*/
+  /*background-position: 5px center;*/
+}
+
+@media all and (max-width: 767px) {
+  .social-button_share {
+    width: 25%;
+    height: 40px;
+    margin-right: 0;
+  }
+
+  .social-button_share__icon {
+    width: 100%;
+    left: 0;
+    border: 0;
+  }
+
+  .social-button_share__number {
+    display: none;
+  }
+
 }

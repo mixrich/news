@@ -3,7 +3,7 @@
   position: relative;
   width: 100%;
   min-height: 100px;
-  padding: 20px 0 20px 20px;
+  padding: 20px 0 16px 20px;
   background: #f7f7f7;
   text-transform: none;
   text-decoration: none;
@@ -96,4 +96,20 @@
   font-size: 14px;
   line-height: 22px;
   color: #e6e6e6;
+}
+
+@media all and (max-width: 767px) {
+    .reference:before,
+    .reference:after {
+      display: none;
+    }
+
+    .reference__author {
+      margin-right: 5px;
+      margin-left: 75px;
+    }
+
+    .reference__link {
+      display: none;
+    }
 }

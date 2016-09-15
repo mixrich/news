@@ -22,6 +22,9 @@
         <img class="article__author__photo" src="images/persons/Kajgorodova_K.jpg" alt="Катерина Кайгородова" />
         <span class="article__author__name">Катерина Кайгородова</span>
       </div>
+      <div class="article__social-button_share-container_mobile clearfix">
+        <%- include('../common/social-button_share-container') %>
+      </div>
       <h3 class="article__subtitle">
         В этом году «большой» томской промышленности исполняется 75 лет.
         Официальный отсчет ведется с 1941 года, когда после начала Великой Отечественной войны
@@ -58,24 +61,7 @@
           А еще по шесть часов работали на заводе. Мы старые лампы ремонтировали: прокалывали их, мыли, сушили, вдевали новые спирали.
           Работа тяжелая. Летом жарко, дышать нечем.</p>
           <div class="article__quote-container">
-            <div class="article__quote quote">
-              <div class="quote__author clearfix">
-                <img class="quote__author__photo" src="images/persons/Petlina_N.jpg" alt="Надежда Петлина" />
-                <p class="quote__author__info">
-                  <span class="quote__author__name">Надежда<br/>Петлина</span><br/>
-                  <span class="quote__author__position">председатель Совета ветеранов ТЭЛЗ</span>
-                </p>
-              </div>
-              <span class="quote__first-letter">К</span>
-              <span class="quote__text">огда я в 1965 году пришла на завод, наши с Марией Антоновной линейки стояли рядышком.
-                Она была лучшим специалистом. Настолько все делала искусно, что у нее ничего не трескалось, не выбрасывалось в брак.
-                Если уж они перегоревшую лампу оживляли, то «ножку», которая на пол упала, подберут обязательно.
-                Ее можно наладить, вновь запаять.</span>
-                <p class="quote__text">А еще Мария Антоновна всегда была очень скромной, положительной. Никогда не нагрубит, если спросишь совета — подойдет, расскажет.</p>
-                <p class="quote__text">Ее портреты часто висели на досках почета. Тогда это была очень большая честь.
-                  Надо было не только хорошо работать, а еще и общественную нагрузку нести.
-                  А портреты самых лучших работников вывешивали на доске почета возле завода.</p>
-            </div>
+            <%- include('reference') %>
           </div>
         </section>
         <section class="article__section">
@@ -162,7 +148,7 @@
     </div>
     <form class="article__subscribe-form subscribe-form">
       <div class="subscribe-form__input-container clearfix">
-        <input class=" subscribe-form__email" type="text" name="email" placeholder="Введите Вашу почту">
+        <input class="subscribe-form__email" type="text" name="email" placeholder="Введите Вашу почту">
         <button class="subscribe-form__button"><span>Подписаться на дайджест</span></button>
       </div>
       <p class="subscribe-form__terms">Раз в неделю наши лучшие материалы в вашей почте, без надоедливого спама.<br/>
@@ -173,12 +159,12 @@
 
 <div class="wrapper">
   <div class="news-item-wrapper article__news-panel_bottom clearfix">
-  <div class="news-item__divider"></div>
-  <% for (var i=0; i<2; i++) { %>
-      <%- include('../common/news-item') %>
-      <%- include('../common/news-item_special') %>
-      <%- include('../common/news-item_no-photo_special') %>
-  <% } %>
+    <div class="news-item__divider"></div>
+    <% for (var i=0; i<2; i++) { %>
+        <%- include('../common/news-item') %>
+        <%- include('../common/news-item_special') %>
+        <%- include('../common/news-item_no-photo_special') %>
+    <% } %>
   </div>
   <div class="news-item__divider"></div>
 </div>

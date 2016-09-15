@@ -1,4 +1,3 @@
-
 .subscribe-form__input-container {
   margin-bottom: 7px;
 }
@@ -48,4 +47,30 @@
 
 .subscribe-form__terms__link {
   border-bottom: 1px solid #ffffff;
+}
+
+@media all and (max-width: 767px) {
+  .subscribe-form {
+    width: 100%;
+  }
+
+  .subscribe-form__input-container {
+    margin-bottom: 0;
+  }
+
+  .subscribe-form__email {
+    width: 100%;
+    max-width: 300px;
+    /*float: none;*/
+    margin-bottom: 10px;
+  }
+
+  .subscribe-form__button {
+    /*float: none;*/
+    margin-bottom: 7px;
+  }
+
+  .subscribe-form__terms {
+    /*max-width: 80%;*/
+  }
 }

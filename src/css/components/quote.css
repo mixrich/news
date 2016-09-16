@@ -1,6 +1,12 @@
+.quote-container {
+  background: url("../../images/quote-bg_left.png") no-repeat 0 0;
+}
+
 .quote {
   padding: 40px 40px 35px 40px;
-  background: #f7f7f7;
+  background: #f7f7f7 url("../../images/quote-bg_right.png") no-repeat;
+  /*background-position: calc(100% - 12px) calc(100% - 12px);*/
+  background-position: bottom 12px right 12px;
 }
 
 .quote__text {
@@ -58,6 +64,10 @@ p.quote__text {
 }
 
 @media all and (max-width: 767px) {
+
+  .quote-container {
+    background: none;
+  }
     .quote {
       padding: 20px 20px 10px 20px;
     }

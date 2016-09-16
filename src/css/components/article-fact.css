@@ -1,6 +1,7 @@
 .fact-container {
   padding: 40px 40px 36px 40px;
-  background: #f7f7f7;
+  background: #f7f7f7 url("../../images/fact-bg_left.png") no-repeat 0 10px,
+              #f7f7f7 url("../../images/fact-bg_right.png") no-repeat bottom 7px right 10px;
 }
 
 .fact__picture {

@@ -43,7 +43,7 @@
           Истории от ветерана завода Марии Мельниковой
         </h2>
         <div class="news-item__divider"></div>
-        <div class="article__quote-container">
+        <div class="article__quote-container quote-container">
           <div class="article__quote quote">
             <span class="quote__first-letter">Н</span>
             <span class="quote__text">а завод я пришла в 1944 году, мне тогда шел семнадцатый год.
@@ -60,8 +60,8 @@
           Днем мы по 6 часов учились в ФЗУ. У нас была военная подготовка: политзанятия, строевая, и медицине обучали.
           А еще по шесть часов работали на заводе. Мы старые лампы ремонтировали: прокалывали их, мыли, сушили, вдевали новые спирали.
           Работа тяжелая. Летом жарко, дышать нечем.</p>
-          <div class="article__quote-container">
-            <%- include('reference') %>
+          <div class="article__quote-container quote-container">
+            <%- include('quote') %>
           </div>
         </section>
         <section class="article__section">
@@ -86,7 +86,7 @@
             Здесь без остановки производства сделали ремонт, освоили выпуск новых видов продукции,
             в частности — светодиодных ламп бытового назначения, и планируют работать и развиваться дальше.</p>
 
-            <div class="article__quote-container">
+            <div class="article__quote-container quote-container">
               <div class="article__quote quote">
                 <div class="quote__author clearfix">
                   <p class="quote__author__info">
@@ -148,7 +148,11 @@
     </div>
     <form class="article__subscribe-form subscribe-form">
       <div class="subscribe-form__input-container clearfix">
-        <input class="subscribe-form__email" type="text" name="email" placeholder="Введите Вашу почту">
+        <label class="subscribe-form__label">
+          <input class="subscribe-form__input subscribe-form__email" name="email" required="" type="text">
+          <span class="subscribe-form__placeholder">Введите вашу почту</span>
+        </label>
+        <!-- <input class="subscribe-form__email" type="text" name="email" placeholder="Введите Вашу почту"> -->
         <button class="subscribe-form__button"><span>Подписаться на дайджест</span></button>
       </div>
       <p class="subscribe-form__terms">Раз в неделю наши лучшие материалы в вашей почте, без надоедливого спама.<br/>

@@ -26,6 +26,21 @@
 }
 
 
+.rss-block__link {
+    text-align: center;
+    background: #f7f7f7;
+    margin-left: -10px;
+    margin-bottom: -10px;
+    width: calc( 100% - 20px);
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    color: #1a1917;
+    font-size: 18px;
+    font-weight: bold;
+    display: none;
+}
+
 
 @media all and (max-width: 1380px) {
     .rss-block {
@@ -39,10 +54,15 @@
     }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
     .rss-block {
         width: 100%;
         max-width: none;
         margin-right: 0;
+        height: auto;
+    }
+
+    .rss-block__link {
+        display: block;
     }
 }

@@ -3,4 +3,9 @@ body {
     font-family: 'Fira Sans';
     font-size: 18px;
     line-height: 24px;
+
+    -webkit-font-smoothing: subpixel-antialiased !important;
+-webkit-backface-visibility: hidden;
+-moz-backface-visibility:    hidden;
+-ms-backface-visibility:     hidden;
 }

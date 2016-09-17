@@ -1,0 +1,23 @@
+.rss {
+    text-decoration: none;
+    color: #1a1917;
+}
+
+.rss::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.rss__time {
+    font-size: 12px;
+    line-height: 22px;
+    float: left;
+    color: #a9a9a9;
+}
+
+.rss__title {
+    margin-left: 50px;
+    font-size: 14px;
+    line-height: 22px;
+}

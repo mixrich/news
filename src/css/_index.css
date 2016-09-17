@@ -11,7 +11,9 @@
 @import "components/header-top-menu.css";
 @import "components/header-bottom-menu.css";
 @import "components/footer.css";
-@import "components/tv-block.css";
+@import "components/rss-block.css";
+@import "components/rss-list.css";
+@import "components/rss.css";
 
 
 @import "components/article.css";

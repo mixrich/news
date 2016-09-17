@@ -11,3 +11,10 @@
 p {
     margin-bottom: 6px;
 }
+
+
+@media all and (max-width: 767px) {
+    .news-item-wrapper {
+        margin-right: 0;
+    }
+}

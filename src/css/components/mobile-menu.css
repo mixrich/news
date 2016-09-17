@@ -1,0 +1,15 @@
+#mobile-menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: white;
+    overflow-y: auto;
+    z-index: 2;
+}
+
+#mobile-menu:target {
+    display: block;
+}

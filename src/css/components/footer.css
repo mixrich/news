@@ -36,10 +36,70 @@
 
 .footer-menu__item {
     display: inline-block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    min-width: 40%;
 
 }
 
 .footer-menu__link {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+
+
+
+
+
+.footer-links {
+    color: white;
+}
+
+
+.footer-links__item {
+    display: block;
+    margin-bottom: 6px;
+}
+
+
+.footer-links__item b {
+    font-weight: bold;
+}
+
+.footer-links__link {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+
+
+.footer-social {
+    color: white;
+}
+
+
+.footer-social__header {
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+    font-weight: bold;
+
+}
+
+
+.footer-social__item {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+    margin-bottom: 6px;
+}
+
+
+.footer-social__link {
     text-decoration: none;
     color: inherit;
 }

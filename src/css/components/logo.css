@@ -1,0 +1,8 @@
+.logo {
+    width: 90px;
+    height: 40px;
+    background-image: url('./../../images/svg/logo.svg');
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+}

@@ -77,4 +77,12 @@
     .header_mobile {
         display: block;
     }
+
+    .header__age {
+        margin: 0;
+    }
+
+    .header__logo {
+        line-height: 60px;
+    }
 }

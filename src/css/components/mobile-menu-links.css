@@ -1,0 +1,21 @@
+.mobile-menu-links {
+    padding-left: 55px;
+}
+
+
+.mobile-menu-links__item {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: normal;
+}
+
+.mobile-menu-links__item_main {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.mobile-menu-links__link {
+    text-decoration: none;
+    color: #1a1917;
+}

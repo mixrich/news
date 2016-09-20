@@ -58,7 +58,7 @@ background-color: rgba(0,0,0,0.2);
         width: calc(50% - 20px);
         min-width: 0;
         height: 620px;
-        max-width: 400px;
+        max-width: 450px;
     }
 
     .news-item-wide__left, .news-item-wide__right {

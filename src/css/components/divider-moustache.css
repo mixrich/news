@@ -1,0 +1,38 @@
+.divider-moustache {
+    width: 100%;
+    padding-top: 30px;
+    margin-bottom: 5px;
+    position: relative;
+
+    background-image: url('./../../images/svg/mustages_green.svg');
+    background-repeat: no-repeat;
+    background-size: 30px 15px;
+    background-position: center center;
+}
+
+.divider-moustache::before, .divider-moustache::after {
+    display: block;
+    width: calc(50% - 30px);
+    height: 15px;
+    content: "";
+    position: absolute;
+    top: 0;
+    border-bottom: 1px solid #0fff00;
+
+
+}
+
+.divider-moustache::before {
+    left: 0;
+}
+
+.divider-moustache::after {
+    right: 0;
+}
+.news-item:hover .divider-moustache {
+    background-image: url('./../../images/svg/mustages.svg');
+}
+
+.news-item:hover .divider-moustache::before, .news-item:hover .divider-moustache::after {
+    border-color: #1a1917;
+}

@@ -1,0 +1,27 @@
+.divider-flora {
+    width: calc(100% - 30px);
+    border-bottom: 1px solid #e6e6e6;
+    padding-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    position: relative;
+}
+
+.divider-flora::before {
+    display: block;
+    width: 30px;
+    height: 25px;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -30px;
+    background-image: url('./../../images/svg/floran.svg');
+    background-repeat: no-repeat;
+    background-size: 20px 10px;
+    background-position: left 10px;
+
+}
+
+.news-item:hover .divider-flora::before {
+    background-image: url('./../../images/svg/floran_white.svg');
+}

@@ -1,6 +1,6 @@
 .news-item-wide {
     min-width: 600px;
-    max-width: 820px;
+    max-width: 920px;
     width: calc(50% - 20px);
     height: 300px;
     margin-right: 20px;

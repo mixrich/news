@@ -19,6 +19,7 @@
 @import "components/logo.css";
 @import "components/divider-flora.css";
 @import "components/divider-moustache.css";
+@import "components/divider-hat.css";
 @import "components/search-logo.css";
 @import "components/social-icon.css";
 
@@ -28,6 +29,7 @@
 @import "components/social-button.css";
 @import "components/quote.css";
 @import "components/reference.css";
+@import "components/article-incut.css";
 @import "components/article-fact.css";
 @import "components/subscribe-form.css";
 @import "components/article-feedback-container.css";

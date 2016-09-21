@@ -1,69 +1,62 @@
-
-.article__news-panel_right {
-  float: right;
-  width: 300px;
-  padding: 10px;
-  background: #f7f7f7;
-}
-
-.article__news-panel_right .news-item {
-  width: 100%;
-  margin-bottom: 10px;
-}
-
-.article__news-panel_right .fb-widget {
-  width: 100%;
-  height: 250px;
-  margin-bottom: 10px;
-  background: #f3f3f3;
-}
-
-.article__comments-container .article__news-panel_right {
-  width: 220px;
-  padding: 0 20px;
-}
-
-.article__image_top-container {
-  width: 100%;
-  background: #ffffff;
-}
-
-.article__image_top {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.article-wrapper {
-  padding: 0 40px;
-}
-
 .wrapper.article-wrapper {
   max-width: 1680px;
   padding: 0;
 }
 
-.article__column-wrapper {
-  /*width: 70%;*/
+.article {
   margin-right: 320px;
   padding: 20px 40px 10px;
   background: #ffffff;
+  color: #1a1917;
 }
 
-.article__title {
+.article h1 {
   font-size: 60px;
   line-height: 70px;
   margin-top: 15px;
   margin-bottom: 20px;
 }
 
-.article__social-button_share-container {
-  height: 40px;
-  margin-bottom: 40px;
+.article h2 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
 }
 
-.article__social-button_share-container_mobile {
+.article h3 {
+  margin-bottom: 18px;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.article p {
+  font-size: 16px;
+  text-indent: 0;
+  text-align: left;
+  margin-bottom: 12px;
+}
+
+.article img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 32px;
+  margin-bottom: 15px;
+}
+
+.article__social-button-container {
+  height: 40px;
+  margin-bottom: 40px;
+  font-size: 0;
+}
+
+.article__social-button-container_mobile {
   display: none;
+}
+
+.article__social-button {
+  display: inline-block;
+  margin-right: 10px;
 }
 
 .article__author {
@@ -71,6 +64,7 @@
   width: 100%;
   height: 60px;
   margin-bottom: 32px;
+  font-size: 0;
   text-align: left;
   vertical-align: middle;
 }
@@ -80,22 +74,20 @@
   display: inline-block;
   height: 100%;
   vertical-align: middle;
-  font-size: 0;
 }
 
-.article__author__photo {
+.article img.article__author__photo {
   display: block;
-  float: left;
   width: 60px;
   height: 60px;
+  margin: 0;
   margin-right: 10px;
-  vertical-align: middle;
 }
 
-/*.article__author__info {
-  display: inline-block;
+.article__author img.article__author__photo {
+  float: left;
   vertical-align: middle;
-}*/
+}
 
 .article__author__name {
   vertical-align: middle;
@@ -103,75 +95,55 @@
   line-height: 22px;
 }
 
-.article__subtitle {
-  margin-bottom: 18px;
-  font-size: 32px;
-  line-height: 48px;
-}
-
-.article__paragraph {
-  font-size: 16px;
-  text-indent: 0;
-  text-align: left;
-  margin-bottom: 12px;
-}
-
 .article__section {
   padding: 0;
   margin: 45px 0;
 }
 
-.article__section-title {
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 36px;
-}
-
-.article__quote-container {
-  width: 100%;
-  padding-left: 80px;
-  margin: 35px 0;
-  box-sizing: border-box;
-}
-
-.article__reference {
-  margin: 32px 0;
-}
-
-.article__paragraph_big {
+p.article-incut {
   margin: 23px auto;
   font-size: 40px;
   line-height: 50px;
   text-align: center;
 }
 
-.article__picture {
-  display: block;
+
+.article-news-panel {
+  float: right;
+  width: 300px;
+  padding: 10px;
+  background: #f7f7f7;
+}
+
+.article-news-panel .news-item {
   width: 100%;
-  height: auto;
-  margin-top: 32px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
-.article__fact-container {
-  margin-top: 32px;
-}
-
-.article__social-container {
+.article-news-panel .fb-widget {
   width: 100%;
-  margin-bottom: 40px;
-  /*height: 120px;*/
-  background: #1a1917;
+  height: 250px;
+  margin-bottom: 10px;
+  background: #f3f3f3;
 }
 
-.article__social-container .article__social-button_share-container {
-  float: left;
-  margin: 0;
-  margin-right: 10px;
+.article__comments-container .article-news-panel {
+  width: 220px;
+  padding: 0 20px;
 }
 
-.article__subscribe-form {
-  float: left;
+.article-news-panel_bottom,
+.article-news-panel_bottom > a {
+  font-family: "Fira Sans";
+  font-size: 14px;
+  line-height: 22px;
+  text-decoration: none;
+  text-transform: none;
+  color: #1a1917;
+}
+
+.article-news-panel_bottom > p {
+  font-size: 16px;
 }
 
 .article__comments-widget {
@@ -182,25 +154,28 @@
 }
 
 @media all and (max-width: 767px) {
-    .article__news-panel_right {
-      display: none;
-    }
-
-    .article__column-wrapper {
+    .article {
       margin-right: 0;
       padding: 10px;
       box-sizing: border-box;
     }
 
-    .article__title {
+    .article h1 {
       font-size: 32px;
       line-height: 44px;
       margin: 9px 0 26px;
     }
 
-    .article__subtitle {
+    .article h3 {
       font-size: 24px;
       line-height: 36px;
+      margin-bottom: 26px;
+    }
+
+    .article img {
+      width: calc(100% + 20px);
+      margin-left: -10px;
+      margin-top: 20px;
       margin-bottom: 26px;
     }
 
@@ -212,56 +187,27 @@
       margin: 28px 0;
     }
 
-    .article__quote-container {
-      padding: 0;
-      margin: 25px 0;
-    }
-
-    .article__reference {
-      margin: 24px 0;
-    }
-
-    .article__paragraph_big {
+    p.article-incut {
       margin: 20px auto;
       font-size: 32px;
       line-height: 44px;
-    }
-
-    .article__picture {
-      width: calc(100% + 20px);
-      margin-left: -10px;
-      margin-top: 20px;
-      margin-bottom: 26px;
-    }
-
-    .article__fact-container {
-      margin-left: -10px;
-      margin-right: -10px;
-      margin-bottom: 34px;
     }
 
     .article__social-container {
       margin-bottom: 0;
     }
 
-    .article__social-button_share-container {
+    .article__social-button-container {
       display: none;
     }
 
-    .article__social-button_share-container_mobile {
-      display: block;
-      margin-left: -10px;
-      margin-right: -10px;
+    .article__social-button-container_mobile {
+      display: block !important;
+      margin: 0 -10px;
+      font-size: 0;
     }
 
-    .article__news-panel_bottom {
-      width: 100%;
-      max-height: 300px;
-      overflow: hidden;
-    }
-
-    .article__news-panel_bottom > .news-item__divider,
-    .article__news-panel_bottom + .news-item__divider {
+    .article-news-panel {
       display: none;
     }
 

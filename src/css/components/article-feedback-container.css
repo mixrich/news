@@ -1,0 +1,22 @@
+.article-feedback-container {
+  width: 100%;
+  margin-bottom: 40px;
+  background: #1a1917;
+}
+
+.article-feedback-container .article__social-button-container {
+  float: left;
+  margin: 0;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.article-feedback-container .subscribe-form {
+  float: left;
+}
+
+@media all and (max-width: 767px) {
+  .article-feedback-container {
+    margin-bottom: 0;
+  }
+}

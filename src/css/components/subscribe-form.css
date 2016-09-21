@@ -2,14 +2,36 @@
   margin-bottom: 7px;
 }
 
-.subscribe-form__label {
-  position: relative;
-  display: block;
-  float: left;
-  margin-right: 10px;
+.subscribe-form__email::-webkit-input-placeholder {
+  font-family: 'Fira Sans';
+  font-size: 14px;
+  line-height: 22px;
+  vertical-align: middle;
+  color: #1a1917;
+}
+.subscribe-form__email::-moz-placeholder {
+  font-family: 'Fira Sans';
+  font-size: 14px;
+  line-height: 22px;
+  vertical-align: middle;
+  color: #1a1917;
+  }/* Firefox 19+ */
+.subscribe-form__email:-moz-placeholder {
+  font-family: 'Fira Sans';
+  font-size: 14px;
+  line-height: 22px;
+  vertical-align: middle;
+  color: #1a1917;
+  }/* Firefox 18- */
+.subscribe-form__email:-ms-input-placeholder {
+  font-family: 'Fira Sans';
+  font-size: 14px;
+  line-height: 22px;
+  vertical-align: middle;
+  color: #1a1917;
 }
 
-.subscribe-form__placeholder {
+/*.subscribe-form__placeholder {
     display: block;
     position: absolute;
     top: 9px;
@@ -20,14 +42,16 @@
     line-height: 22px;
     color: #1a1917;
     cursor: text;
-}
+}*/
 
 .subscribe-form__email {
   display: block;
   position: relative;
+  float: left;
   width: 300px;
   height: 40px;
   padding: 0 15px;
+  margin-right: 10px;
   font-family: 'Fira Sans';
   font-size: 14px;
   line-height: 22px;
@@ -39,6 +63,7 @@
   -webkit-border-radius: 1px;
   -moz-border-radius: 1px;
   border-radius: 1px;
+  outline: none;
 }
 
 .subscribe-form__button {
@@ -86,19 +111,13 @@
     margin-bottom: 0;
   }
 
-  .subscribe-form__label {
+  .subscribe-form__email {
     width: 100%;
     max-width: 300px;
-    /*float: none;*/
     margin-bottom: 10px;
   }
 
   .subscribe-form__button {
-    /*float: none;*/
     margin-bottom: 7px;
-  }
-
-  .subscribe-form__terms {
-    /*max-width: 80%;*/
   }
 }

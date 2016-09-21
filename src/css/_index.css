@@ -20,8 +20,11 @@
 
 
 @import "components/article.css";
-@import "components/social-button_share.css";
+@import "components/article-image.css";
+@import "components/social-button.css";
 @import "components/quote.css";
 @import "components/reference.css";
 @import "components/article-fact.css";
 @import "components/subscribe-form.css";
+@import "components/article-feedback-container.css";
+@import "components/article-news-block.css";

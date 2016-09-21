@@ -1,3 +1,7 @@
+.reference-container {
+  margin: 32px 0;
+}
+
 .reference {
   display: inline-block;
   position: relative;
@@ -53,7 +57,7 @@
   cursor: pointer;
 }
 
-.reference:hover .reference__author {
+.reference:hover .reference__text {
   color: #ffffff;
 }
 
@@ -61,24 +65,25 @@
   text-decoration: underline;
 }
 
-.reference .article__author__photo {
+.reference img.article__author__photo {
   position: absolute;
   top: 20px;
   left: 20px;
 }
 
-.reference__author {
-  margin: -5px 170px 0 80px;
-  /*margin-left: 80px;
-  margin-right: 170px;
-  margin-top: -5px;*/
+.reference p {
+  margin-bottom: 0;
   font-size: 14px;
   line-height: 22px;
   vertical-align: top;
+}
+
+.reference__text {
+  margin: -5px 170px 0 80px;
   color: #1a1917;
 }
 
-.reference__author__name {
+.reference__author-name {
   font-weight: bold;
 }
 
@@ -94,12 +99,14 @@
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   width: 120px;
-  font-size: 14px;
-  line-height: 22px;
   color: #e6e6e6;
 }
 
 @media all and (max-width: 767px) {
+    .reference-container {
+      margin: 24px 0;
+    }
+
     .reference {
       width: 100%;
     }
@@ -109,7 +116,7 @@
       display: none;
     }
 
-    .reference__author {
+    .reference__text {
       margin-right: 5px;
       margin-left: 75px;
     }

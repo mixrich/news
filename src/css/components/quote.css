@@ -1,46 +1,50 @@
 .quote-container {
-  background: url("../../images/quote-bg_left.png") no-repeat 0 0;
+  width: 100%;
+  padding-left: 80px;
+  margin: 35px 0;
+  box-sizing: border-box;
+  background: url('./../../images/svg/quote_left.svg') 0 0 no-repeat;
+  background-size: 60px 60px;
 }
 
 .quote {
   padding: 40px 40px 35px 40px;
-  background: #f7f7f7 url("../../images/quote-bg_right.png") no-repeat;
-  /*background-position: calc(100% - 12px) calc(100% - 12px);*/
+  background: #f7f7f7 url('./../../images/svg/quote_right.svg') no-repeat;
   background-position: bottom 12px right 12px;
+  background-size: 60px 60px;
 }
 
-.quote__text {
+.quote > p {
   font-size: 18px;
   line-height: 27px;
-}
-
-p.quote__text {
+  vertical-align: top;
   margin: 0;
   margin-top: 13px;
 }
 
-.quote__first-letter {
+.quote p:first-of-type {
+  margin: 0;
+}
+
+.quote p:first-of-type::first-letter {
   float: left;
   font-size: 50px;
   font-weight: bold;
   color: #ff00ff;
-  margin-top: 18px;
+  margin-top: 16px;
   margin-right: 5px;
-  margin-left: -4px;
 }
 
 .quote__author {
-  /*margin-bottom: 15px;*/
+  width: 100%;
 }
 
-.quote__author__photo {
+.quote__author .quote__author__photo {
   width: 140px;
   height: 140px;
-  margin-right: 20px;
-  margin-bottom: 15px;
+  margin: 8px 20px 15px 0;
   float: left;
   background: #ff00ff;
-  /*background: #ff00ff url("/images/news.jpg") no-repeat;*/
 }
 
 .quote__author__info {
@@ -64,29 +68,32 @@ p.quote__text {
 }
 
 @media all and (max-width: 767px) {
-
   .quote-container {
+    padding: 0;
+    margin: 25px 0;
     background: none;
   }
-    .quote {
-      padding: 20px 20px 10px 20px;
-    }
 
-    .quote__author__photo {
-      margin-right: 10px;
-    }
+  .quote {
+    padding: 20px 20px 10px 20px;
+  }
 
-    .quote__author__info {
-      margin-top: -4px;
-    }
+  .quote__author .quote__author__photo {
+    margin-right: 10px;
+    margin-top: 4px;
+  }
 
-    .quote__author__name {
-      font-size: 18px;
-      line-height: 24px;
-    }
+  .quote__author__info {
+    margin-top: -4px;
+  }
 
-    .quote__author__position {
-      font-size: 12px;
-      line-height: 18px;
-    }
+  .quote__author__name {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .quote__author__position {
+    font-size: 12px;
+    line-height: 18px;
+  }
 }

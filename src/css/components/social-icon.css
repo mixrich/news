@@ -1,0 +1,33 @@
+.social-icon {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.5em;
+    display: inline-block;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+
+.social-icon_fb {
+    background-image: url('./../../images/svg/footer_fb.svg');
+}
+
+.social-icon_insta {
+    background-image: url('./../../images/svg/footer_insta.svg');
+}
+
+.social-icon_rss {
+    background-image: url('./../../images/svg/footer_rss.svg');
+}
+
+.social-icon_tg {
+    background-image: url('./../../images/svg/footer_tg.svg');
+}
+
+.social-icon_tw {
+    background-image: url('./../../images/svg/footer_tw.svg');
+}
+
+.social-icon_vk {
+    background-image: url('./../../images/svg/footer_vk.svg');
+}

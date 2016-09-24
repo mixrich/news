@@ -150,15 +150,17 @@
             
                 <div class="rss-page">
     <div class="rss-page__news">
-        
+
         <div class="rss-news">
-    <h2 class="rss-news__header">Новости</h2>
-    <div class="rss-news__filter">
-        Показывать
-        <span  class="toogle" ><input id="tomsk" type="checkbox" name="name" value="tomsk" checked> <label for="tomsk">томские</label></span>
-        и
-        <span  class="toogle" ><input id="not-tomsk" type="checkbox" name="name" value="tomsk"> <label class="toogle" for="not-tomsk">не томские</label></span>
-    </div>
+            <h2 class="rss-news__header">Новости</h2>
+            <div class="rss-news__filter">
+                Показывать
+                <span  class="toogle" ><input id="tomsk" type="checkbox" name="name" value="tomsk" checked> <label for="tomsk">томские</label></span>
+                и
+                <span  class="toogle" ><input id="not-tomsk" type="checkbox" name="name" value="tomsk"> <label class="toogle" for="not-tomsk">не томские</label></span>
+            </div>
+
+            
 
     <ul class="rss-list">
         <li class="rss-list__item">
@@ -269,8 +271,23 @@
             </a>
         </li>
     </ul>
-</div>
 
+
+
+            <button class="button-more button-more_darker button-more_margin" type="button" name="button">Показать больше новостей</button>
+
+            <form class="subscribe-form ">
+    <div class="subscribe-form__input-container clearfix">
+        <input class="subscribe-form__email" name="email" required="" type="text" placeholder="Введите вашу почту">
+        <button class="subscribe-form__button">Подписаться на дайджест</button>
+    </div>
+    <p class="subscribe-form__terms">Раз в неделю наши лучшие материалы в вашей почте, без надоедливого спама.<br>
+    <a href="#" class="subscribe-form__link">Условия конфиденциальности</a></p>
+</form>
+
+
+
+        </div>
 
 
     </div>

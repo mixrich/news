@@ -3,5 +3,9 @@
 }
 
 .rss-list__item {
+    margin-bottom: 20px;
+}
+
+.rss-list_preview .rss-list__item {
     margin-bottom: 10px;
 }

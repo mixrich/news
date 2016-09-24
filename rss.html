@@ -404,6 +404,25 @@
 
             
         
+
+
+
+        <div id="dev-nav" style="position: fixed; bottom: 0; right: 0; background: white; padding: 10px; padding-right: 30px; border: 1px solid black">
+            <h3>Development блок навигации:</h3>
+            <a href="./">Главная</a>
+            <a href="./article.html">Статья</a>
+            <a href="./rss.html">Новости</a>
+                <span id="dev-nav-close" style="position: absolute; top: 5px; right: 2px; width: 20px; height: 20px; cursor: pointer">✖</span>
+        </div>
+
+        <script>
+            var pane = document.getElementById('dev-nav');
+            var close = document.getElementById('dev-nav-close');
+            close.addEventListener('click', function(){
+                pane.style.display = "none";
+            });
+        </script>
+
         <script src="/js/require.js"></script>
         <script src="/js/app.js"></script>
     </body>

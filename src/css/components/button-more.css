@@ -1,0 +1,11 @@
+.button-more {
+    padding: 19px;
+    width: 100%;
+    text-align: center;
+    color: #1a1917;
+    background: white;
+    border: 0;
+    border-radius: 0;
+    font: inherit;
+    font-weight: bold;
+}

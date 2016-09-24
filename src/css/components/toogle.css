@@ -1,0 +1,45 @@
+.toogle input {
+    display: none;
+}
+
+.toogle label {
+    display: inline-block;
+    background: #f7f7f7;
+    cursor: pointer;
+    position: relative;
+    margin-right: 40px;
+    line-height: 1em;
+    padding: 3px 8px;
+}
+
+
+.toogle label:after {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: -39px;
+    width: 38px;
+    bottom: 0;
+    content: "✓";
+    background-color: #f7f7f7;
+    border-left: 1px solid white;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 16px;
+/*
+    background-image: url('./../../images/svg/cross.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 10px 10px;*/
+    padding-top: 4px;
+
+}
+
+.toogle input:checked + label {
+    background: #0fff00;
+}
+
+.toogle input:checked + label:after {
+    background-color: #0fff00;
+    content: "✖";
+}

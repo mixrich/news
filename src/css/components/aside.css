@@ -1,0 +1,15 @@
+.aside {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.aside::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.aside .news-item {
+    width: 100%;
+}

@@ -1,1 +1,15 @@
-define("modules/dimmer",[],function(){function i(){this.dimmer=null}return i.prototype.init=function(){var i=document.getElementById("dimmer");i&&(this.dimmer=i)},i.prototype.showDimmer=function(){this.dimmer&&this.dimmer.classList.remove("dimmer--hidden")},i.prototype.hideDimmer=function(){this.dimmer&&this.dimmer.classList.add("dimmer--hidden")},i}),require(["./modules/dimmer"],function(i){var e=new i;e.init(),document.addEventListener("click",function(i){var t=i.target;if(t&&t.hasAttribute("data-action")){var m=t.getAttribute("data-action");switch(m){case"show-dimmer":e.showDimmer();break;case"hide-dimmer":e.hideDimmer()}}})}),define("app",function(){});
+
+var categoriesShowAllButton = document.getElementById('js-categories-show-all');
+
+if (categoriesShowAllButton) {
+    categoriesShowAllButton.addEventListener('click', function() {
+        this.style.display='none';
+
+        var toogles = document.getElementsByClassName('categories__toogle');
+        if (toogles) {
+            for (var i=0; i<toogles.length; i++) {
+                toogles[i].classList.remove('hidden');
+            }
+        }
+    });
+}

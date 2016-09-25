@@ -47,7 +47,7 @@ gulp.task('optimize-pictures', function(){
 });
 
 // build don't use manualy
-gulp.task('build', ['compile-ejs', 'compile-css','compile-js','copy-requirejs', 'optimize-pictures']);
+gulp.task('build', ['compile-ejs', 'compile-css','compile-js', 'optimize-pictures']);
 
 
 // wath changes in all files from 'src' and build

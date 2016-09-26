@@ -45,13 +45,16 @@
 }
 
 
+
+
 .rss-list_preview .rss__time {
+    width: 45px;
     font-size: 12px;
     line-height: 22px;
 }
 
 .rss-list_preview .rss__title {
-    margin-left: 50px;
     font-size: 14px;
     line-height: 22px;
+    margin-left: 55px;
 }

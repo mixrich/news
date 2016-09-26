@@ -1,6 +1,7 @@
 .rss {
     text-decoration: none;
     color: #1a1917;
+    display: inline-block;
 }
 
 .rss::after {
@@ -9,14 +10,47 @@
     clear: both;
 }
 
+
 .rss__time {
-    font-size: 12px;
+    font-size: 16px;
     line-height: 22px;
     float: left;
     color: #a9a9a9;
+    width: 70px;
+}
+
+.rss__preview {
+    height: 140px;
+    width: 140px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 4px;
+}
+
+.rss__preview + .rss__title {
+    margin-left: 230px;
 }
 
 .rss__title {
+    margin-left: 70px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.rss_important .rss__title {
+    font-size: 32px;
+    line-height: 48px;
+    margin-top: -6px;
+    margin-bottom: -10px;
+}
+
+
+.rss-list_preview .rss__time {
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.rss-list_preview .rss__title {
     margin-left: 50px;
     font-size: 14px;
     line-height: 22px;

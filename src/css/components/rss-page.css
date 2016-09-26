@@ -1,0 +1,17 @@
+.rss-page::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.rss-page__news {
+
+        background: white;
+    float: left;
+    width: calc(100% - 400px);
+}
+
+.rss-page__aside {
+    float: left;
+    width: 400px;
+}

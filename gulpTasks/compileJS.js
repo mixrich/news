@@ -4,7 +4,6 @@ var requirejsOptimize = require('gulp-requirejs-optimize');
 
 function compile(options) {
 			return gulp.src('src/js/app.js')
-				.pipe(requirejsOptimize())
 				.pipe(gulp.dest('dist/js'));
 }
 

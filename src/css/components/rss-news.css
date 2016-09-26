@@ -1,0 +1,18 @@
+.rss-news {
+    margin: 40px auto;
+    max-width: 850px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.rss-news__header {
+    font-size: 60px;
+    line-height: 70px;
+    margin-bottom: 20px;
+}
+
+.rss-news__filter {
+    margin-bottom: 40px;
+    font-size: 32px;
+    line-height: 48px;
+}

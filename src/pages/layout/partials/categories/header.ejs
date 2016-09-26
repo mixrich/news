@@ -1,0 +1,17 @@
+<div class="categories clearfix">
+    <h2 class="categories__header">Спецпроекты</h2>
+
+    <div class="categories__toogle-container">
+        <% for (var i=1; i<7; i++) { %>
+            <span  class="toogle categories__toogle" ><input id="cat-<%= i %>" type="checkbox" name="name" value="cat-<%= i %>"> <label for="cat-<%= i %>">Категория <%= i %></label></span>
+
+        <% } %>
+
+        <span id="js-categories-show-all"  class="toogle categories__show-all" >Показать все теги</span>
+
+        <% for (var i=8; i<17; i++) { %>
+            <span  class="toogle categories__toogle hidden" ><input id="cat-<%= i %>" type="checkbox" name="name" value="cat-<%= i %>"> <label for="cat-<%= i %>">Категория <%= i %></label></span>
+
+        <% } %>
+    </div>
+</div>

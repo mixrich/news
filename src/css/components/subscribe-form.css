@@ -1,106 +1,97 @@
 .subscribe-form__input-container {
-  margin-bottom: 7px;
+    margin-bottom: 7px;
 }
+
+.subscribe-form__email {
+    width: 300px;
+    height: 40px;
+    padding: 0 15px;
+    margin-right: 10px;
+    font-family: 'Fira Sans';
+    font-size: 14px;
+    line-height: 40px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    outline: none;
+
+    vertical-align: middle;
+}
+
+
 
 .subscribe-form__email::-webkit-input-placeholder {
-  font-family: 'Fira Sans';
-  font-size: 14px;
-  line-height: 22px;
-  vertical-align: middle;
-  color: #1a1917;
-}
-.subscribe-form__email::-moz-placeholder {
-  font-family: 'Fira Sans';
-  font-size: 14px;
-  line-height: 22px;
-  vertical-align: middle;
-  color: #1a1917;
-  }/* Firefox 19+ */
-.subscribe-form__email:-moz-placeholder {
-  font-family: 'Fira Sans';
-  font-size: 14px;
-  line-height: 22px;
-  vertical-align: middle;
-  color: #1a1917;
-  }/* Firefox 18- */
-.subscribe-form__email:-ms-input-placeholder {
-  font-family: 'Fira Sans';
-  font-size: 14px;
-  line-height: 22px;
-  vertical-align: middle;
-  color: #1a1917;
-}
-
-/*.subscribe-form__placeholder {
-    display: block;
-    position: absolute;
-    top: 9px;
-    left: 15px;
-    z-index: 2;
     font-family: 'Fira Sans';
     font-size: 14px;
     line-height: 22px;
+    vertical-align: middle;
     color: #1a1917;
-    cursor: text;
-}*/
-
-.subscribe-form__email {
-  display: block;
-  position: relative;
-  float: left;
-  width: 300px;
-  height: 40px;
-  padding: 0 15px;
-  margin-right: 10px;
-  font-family: 'Fira Sans';
-  font-size: 14px;
-  line-height: 22px;
-  color: #1a1917;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  border: none;
-  -webkit-border-radius: 1px;
-  -moz-border-radius: 1px;
-  border-radius: 1px;
-  outline: none;
 }
+.subscribe-form__email::-moz-placeholder {
+    font-family: 'Fira Sans';
+    font-size: 14px;
+    line-height: 22px;
+    vertical-align: middle;
+    color: #1a1917;
+}
+
+.subscribe-form__email:-moz-placeholder {
+    font-family: 'Fira Sans';
+    font-size: 14px;
+    line-height: 22px;
+    vertical-align: middle;
+    color: #1a1917;
+}
+
+.subscribe-form__email:-ms-input-placeholder {
+    font-family: 'Fira Sans';
+    font-size: 14px;
+    line-height: 22px;
+    vertical-align: middle;
+    color: #1a1917;
+}
+
+
 
 .subscribe-form__button {
-  display: block;
-  float: left;
-  width: 220px;
-  height: 40px;
-  padding: 0;
-  box-sizing: border-box;
-  border: none;
-  border-radius: 1px;
-  background: #0fff00;
-  text-align: center;
-  vertical-align: middle;
-  cursor: pointer;
-}
-
-.subscribe-form__button span {
-  font-family: 'Fira Sans';
-  font-size: 14px;
-  line-height: 22px;
+    width: 220px;
+    height: 40px;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 1px;
+    background: #0fff00;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 22px;
 }
 
 .subscribe-form__terms,
-.subscribe-form__terms__link {
-  margin: 0;
-  font-family: "Georgia", serif;
-  font-size: 12px;
-  line-height: 18px;
-  font-style: italic;
-  text-decoration: none;
-  color: #ffffff;
+.subscribe-form__link {
+    margin: 0;
+    font-family: "Georgia", serif;
+    font-size: 12px;
+    line-height: 18px;
+    font-style: italic;
+    text-decoration: none;
+    color: #1a1917;
 }
 
-.subscribe-form__terms__link {
-  border-bottom: 1px solid #ffffff;
+.subscribe-form__link {
+    border-bottom: 1px solid #1a1917;;
 }
+
+.subscribe-form_light .subscribe-form__terms, .subscribe-form_light .subscribe-form__link {
+    color: white;
+    border-color: white;
+}
+
 
 @media all and (max-width: 767px) {
   .subscribe-form {

@@ -161,17 +161,12 @@
     <div class="article__social-button-container">
       <%- include('../common/social-button-container') %>
     </div>
-    <form class="subscribe-form">
-      <div class="subscribe-form__input-container clearfix">
-        <!-- <label class="subscribe-form__label"> -->
-        <input class="subscribe-form__email" name="email" required="" type="text" placeholder="Введите вашу почту">
-          <!-- <span class="subscribe-form__placeholder">Введите вашу почту</span> -->
-        <!-- </label> -->
-        <button class="subscribe-form__button"><span>Подписаться на дайджест</span></button>
-      </div>
-      <p class="subscribe-form__terms">Раз в неделю наши лучшие материалы в вашей почте, без надоедливого спама.<br/>
-      <a href="#" class="subscribe-form__terms__link">Условия конфиденциальности</a></p>
-    </form>
+
+    <%- include('../common/subscribe-form', {
+        addClass: "subscribe-form_light"
+    }) %>
+
+
   </div>
 </div>
 

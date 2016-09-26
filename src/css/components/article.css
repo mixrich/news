@@ -226,7 +226,7 @@
     }
 
     .article__author {
-      margin-bottom: 0;
+      margin-bottom: 40px;
     }
 
     .article__section {
@@ -247,7 +247,10 @@
 
     .article__social-button-container_mobile {
       display: block !important;
-      margin: 0 -10px;
+      width: 100%;
+      margin: 0;
+      position: fixed;
+      bottom: 0;
       font-size: 0;
     }
 

@@ -1,6 +1,6 @@
 <img class="article-image" src="images/head_pic.jpg" alt="" />
 
-<div class="wrapper article-wrapper">
+<!-- <div class="wrapper article-wrapper"> -->
 
     <aside class="article-news-panel">
       <div class="fb-widget"></div>
@@ -10,6 +10,7 @@
     </aside>
 
     <article class="article clearfix">
+      <div class="wrapper">
       <h1>
         От самолетных ламп к «лампочке томича»: ТЭЛЗ и его истории
       </h1>
@@ -153,8 +154,9 @@
               теперь закупаются за рубежом — на деньги, которые мы заработали продажей ресурсов.
               Считаю, что такой обмен совершенно неадекватен, и в результате мы имеем провал в экономике. Эту тенденцию нужно сломать.</p>
           </section>
+        </div>
     </article>
-</div>
+<!-- </div> -->
 
 <div class="article-feedback-container">
   <div class="wrapper clearfix">
@@ -178,6 +180,7 @@
           <%- include('../common/news-item') %>
           <%- include('../common/news-item_special') %>
           <%- include('../common/news-item_no-photo_special') %>
+          <%- include('../common/news-item_special') %>
       <% } %>
     </div>
     <div class="divider-moustache"></div>

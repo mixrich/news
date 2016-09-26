@@ -17,6 +17,11 @@
   border-bottom: 1px solid #1a1917;
 }
 
+.article-news-block .news-item-wrapper {
+  max-height: 640px;
+  overflow-y: hidden;
+}
+
 @media all and (max-width: 767px) {
   .article-news-block .news-item-wrapper {
     width: 100%;

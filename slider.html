@@ -3,7 +3,7 @@
     <head>
     
 
-<title>Лента новостей</title>
+<title>Слайдер</title>
 
 <meta charset="utf-8">
 
@@ -41,7 +41,7 @@
 
   <meta name="keywords" content='Foo, bar'>
 
-  <meta property="og:title" content='Лента новостей'>
+  <meta property="og:title" content='Слайдер'>
 
 
 
@@ -148,203 +148,50 @@
 </header>
 
             
-                <div class="rss-page">
-    <div class="rss-page__news">
-
-        <div class="rss-news">
-            <h2 class="rss-news__header">Новости</h2>
-            <div class="rss-news__filter">
-                Показывать
-                <span  class="toogle" ><input id="tomsk" type="checkbox" name="name" value="tomsk" checked> <label for="tomsk">томские</label></span>
-                и
-                <span  class="toogle" ><input id="not-tomsk" type="checkbox" name="name" value="tomsk"> <label class="toogle" for="not-tomsk">не томские</label></span>
-            </div>
-
-            
-
-    <ul class="rss-list">
-        <li class="rss-list__item">
-            <a  class="rss" href="#">
-                <span class="rss__time">в 14:22</span>
-                <h4 class="rss__title">Медведев смог зайти на заблокированный RuTracker со своего iPad</h4>
-            </a>
-        </li>
-
-        <li class="rss-list__item">
-            <a  class="rss  rss_important" href="#">
-                <span class="rss__time">в 14:22</span>
-                <h4 class="rss__title">Медведев смог!!!</h4>
-            </a>
-        </li>
-
-        <li class="rss-list__item">
-            <a  class="rss  rss_important" href="#">
-                <span class="rss__time">в 11:33</span>
-                <img class="rss__preview" src="./images/rss-preview.jpg" alt="" />
-                <h4 class="rss__title">ВТБ24 нашел пробел в законе о рынке форекс</h4>
-            </a>
-        </li>
-
-        <li class="rss-list__item">
-            <a  class="rss" href="#">
-                <span class="rss__time">в 14:22</span>
-                <h4 class="rss__title">Медведев смог зайти на заблокированный RuTracker со своего iPad</h4>
-            </a>
-        </li>
-
-        <li class="rss-list__item">
-            <a  class="rss" href="#">
-                <span class="rss__time">в 14:22</span>
-                <img class="rss__preview" src="./images/rss-preview.jpg" alt="" />
-                <h4 class="rss__title">Медведев смог!!!</h4>
-            </a>
-        </li>
-
-        <li class="rss-list__item">
-            <a  class="rss" href="#">
-                <span class="rss__time">в 11:33</span>
-                <h4 class="rss__title">ВТБ24 нашел пробел в законе о рынке форекс</h4>
-            </a>
-        </li>
-
-        <li class="rss-list__item">
-            <a  class="rss" href="#">
-                <span class="rss__time">в 14:22</span>
-                <h4 class="rss__title">Медведев смог зайти на заблокированный RuTracker со своего iPad</h4>
-            </a>
-        </li>
-
-        <li class="rss-list__item">
-            <a  class="rss" href="#">
-                <span class="rss__time">в 14:22</span>
-                <h4 class="rss__title">Медведев смог!!!</h4>
-            </a>
-        </li>
-
-        <li class="rss-list__item">
-            <a  class="rss" href="#">
-                <span class="rss__time">в 11:33</span>
-                <img class="rss__preview" src="./images/rss-preview.jpg" alt="" />
-                <h4 class="rss__title">ВТБ24 нашел пробел в законе о рынке форекс</h4>
-            </a>
-        </li>
-
-        <li class="rss-list__item">
-            <a  class="rss  rss_important" href="#">
-                <span class="rss__time">в 14:22</span>
-                <h4 class="rss__title">Медведев смог зайти на заблокированный RuTracker со своего iPad</h4>
-            </a>
-        </li>
-
-        <li class="rss-list__item">
-            <a  class="rss" href="#">
-                <span class="rss__time">в 14:22</span>
-                <h4 class="rss__title">Медведев смог!!!</h4>
-            </a>
-        </li>
-
-        <li class="rss-list__item">
-            <a  class="rss rss_important" href="#">
-                <span class="rss__time">в 11:33</span>
-                <h4 class="rss__title">ВТБ24 нашел пробел в законе о рынке форекс</h4>
-            </a>
-        </li>
-
-        <li class="rss-list__item">
-            <a  class="rss" href="#">
-                <span class="rss__time">в 14:22</span>
-                <h4 class="rss__title">Медведев смог зайти на заблокированный RuTracker со своего iPad</h4>
-            </a>
-        </li>
-
-        <li class="rss-list__item">
-            <a  class="rss" href="#">
-                <span class="rss__time">в 14:22</span>
-                <h4 class="rss__title">Медведев смог!!!</h4>
-            </a>
-        </li>
-
-        <li class="rss-list__item">
-            <a  class="rss" href="#">
-                <span class="rss__time">в 11:33</span>
-                <h4 class="rss__title">ВТБ24 нашел пробел в законе о рынке форекс</h4>
-            </a>
-        </li>
-    </ul>
-
-
-
-            <button class="button-more button-more_darker button-more_margin" type="button" name="button">Показать больше новостей</button>
-
-            <form class="subscribe-form ">
-    <div class="subscribe-form__input-container clearfix">
-        <input class="subscribe-form__email" name="email" required="" type="text" placeholder="Введите вашу почту">
-        <button class="subscribe-form__button">Подписаться на дайджест</button>
-    </div>
-    <p class="subscribe-form__terms">Раз в неделю наши лучшие материалы в вашей почте, без надоедливого спама.<br>
-    <a href="#" class="subscribe-form__link">Условия конфиденциальности</a></p>
-</form>
-
-
-
+                
+        <div class="slider">
+            <img src="http://i.kinja-img.com/gawker-media/image/upload/y6k2hs8svqdlp9vvewxt.jpg" alt="" />
+            <img src="http://ichef.bbci.co.uk/news/624/cpsprodpb/618A/production/_89107942_thursday.jpg" alt="" />
+            <img src="http://media2.intoday.in/indiatoday/images/stories//2016JUNE/4_062216123618.jpg" alt="" />
+            <img src="https://d.ibtimes.co.uk/en/full/1411781/april-25-2014-masked-pro-russian-protester-sits-chair-he-poses-picture-inside-regional.jpg" alt="" />
+            <img src="http://dp.topcovers4fb.com/wp-content/uploads/2015/11/Childhood-Love-Walk-Display-Picture.jpg" alt="" />
         </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
 
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="./js/slick.min.js"></script>
 
-    </div>
-    <!-- <div class="rss-page__aside"> -->
-            <div class="aside">
-    <div class="fb-widget"></div>
-    <a href="#" class="news-item">
-    <div class="news-item__label-container" style="background-image: url(./images/news.jpg)">
-        <span class="news-item__label">Как это работает</span>
-    </div>
-    <div class="news-item__content">
-        <h3 class="news-item__title">
-            Обычный блок новостей с фотографией и заголовком
-        </h3>
-        <div class="divider-flora"></div>
-        <div class="news-item__author">
-            Мнение редакции
-        </div>
-    </div>
-</a>
-
-    <a href="#" class="news-item news-item_no-photo">
-    <div class="news-item__label-container">
-        <span class="news-item__label">Как это работает</span>
-    </div>
-    <div class="news-item__content">
-        <h3 class="news-item__title news-item__title_full">
-            Обычный блок новостей без фотографии, но заголовок крупным шрифтом
-        </h3>
-        <div class="divider-flora"></div>
-
-        <div class="news-item__author">
-            Мнение редакции
-        </div>
-    </div>
-</a>
-
-    <a href="#" class="news-item news-item_special">
-    <div class="news-item__label-container" style="background-image: url(./images/news.jpg)">
-        <span class="news-item__label">Как это работает</span>
-    </div>
-    <div class="news-item__content">
-        <h3 class="news-item__title">
-            Специальный блок новостей с фотографией и заголовком
-        </h3>
-        <div class="divider-moustache"></div>
-
-        <div class="news-item__author">
-            Мнение редакции
-        </div>
-    </div>
-</a>
-
-</div>
-
-    <!-- </div> -->
-</div>
+        <script type="text/javascript">
+            $('.slider').slick({
+                centerMode: true,
+                centerPadding: '60px',
+                slidesToShow: 3,
+                arrows: true,
+                variableWidth: true,
+                prevArrow: '<button type="button" class="slick-prev">&#8592</button>',
+                nextArrow: '<button type="button" class="slick-next">&#8594;</button>',
+                responsive: [
+                {
+                  breakpoint: 840,
+                  settings: {
+                    arrows: false,
+                    centerMode: false,
+                    centerPadding: '40px',
+                    slidesToShow: 1,
+                    adaptiveHeight: true,
+                    variableWidth: false,
+                    dots: true
+                  }
+                }
+                ]
+            });
+        </script>
 
             
                 

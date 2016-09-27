@@ -3,7 +3,7 @@ var gulp = require('gulp');
 var requirejsOptimize = require('gulp-requirejs-optimize');
 
 function compile(options) {
-			return gulp.src('src/js/app.js')
+			return gulp.src('src/js/*.js')
 				.pipe(gulp.dest('dist/js'));
 }
 

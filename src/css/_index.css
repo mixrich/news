@@ -30,6 +30,11 @@
 @import "components/categories.css";
 
 
+
+@import "libs/slick.css";
+@import "components/slider.css";
+
+
 @import "components/article.css";
 @import "components/article-image.css";
 @import "components/social-button.css";

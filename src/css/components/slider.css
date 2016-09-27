@@ -1,0 +1,96 @@
+.slider {
+    margin: 0 auto;
+    height: 530px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider::after {
+    position: absolute;
+    top: 0;
+    left: calc(50% + 410px);
+    right: 0;
+    bottom: 0;
+    content: "";
+    display: block;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.slider::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: calc(50% + 410px);
+    bottom: 0;
+    content: "";
+    display: block;
+    background: rgba(255, 255, 255, 0.5);
+    z-index: 3;
+}
+
+.slider .slick-arrow {
+    position: absolute;
+    top: calc(50% - 20px);
+    z-index: 2;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: #f7f7f7;
+    border-radius: 0;
+    font-size: 20px;
+    padding-bottom: 3px;
+}
+
+.slider .slick-prev {
+    left: calc(50% - 410px);
+}
+
+.slider .slick-next {
+    right: calc(50% - 410px);
+}
+
+.slider img {
+    width: 820px;
+    height: auto;
+}
+
+.slider .slick-dots {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0;
+    margin: 0;
+}
+
+.slider .slick-dots li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.slider .slick-dots li button{
+    width: 10px;
+    height: 10px;
+    overflow: hidden;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    color: transparent;
+}
+
+@media all and (max-width: 840px) {
+    .slider {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .slider::before, .slider::after {
+        display: none;
+    }
+
+    .slider img {
+        height: auto;
+    }
+}

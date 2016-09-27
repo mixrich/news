@@ -1,7 +1,17 @@
-.aside {
+/*.aside {
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
+}*/
+
+.aside {
+  float: right;
+  min-width: 320px;
+  max-width: 420px;
+  width: 25%;
+  padding: 10px;
+  background: #f7f7f7;
+  box-sizing: border-box;
 }
 
 .aside::after {
@@ -12,4 +22,28 @@
 
 .aside .news-item {
     width: 100%;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.aside .fb-widget {
+  width: 300px;
+  height: 250px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  background: #f3f3f3;
+}
+
+@media all and (max-width: 1279px) {
+    .aside .news-item,
+    .aside .fb-widget {
+      margin-bottom: 10px;
+    }
+
+}
+
+@media all and (max-width: 767px) {
+    .aside {
+      display: none;
+    }
 }

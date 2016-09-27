@@ -5,23 +5,40 @@
 }
 
 .rss-page__news {
-
-        background: white;
+    background: white;
     float: left;
-    width: calc(100% - 400px);
+    /*width: calc(100% - 400px);*/
+    width: calc(100% - 420px);
 }
 
-.rss-page__aside {
+/*.rss-page__aside {
     float: left;
     width: 400px;
+}*/
+
+@media all and (max-width: 1679px) {
+    .rss-page__news {
+      min-width: calc(100% - 420px);
+      max-width: calc(100% - 320px);
+      width: 75%;
+    }
+
+}
+
+@media all and (max-width: 1279px) {
+    .rss-page__news {
+        width: calc(100% - 320px);
+    }
 }
 
 @media all and (max-width: 767px) {
-    .rss-page__aside {
+    /*.rss-page__aside {
       display: none;
-    }
+    }*/
 
     .rss-page__news {
+      min-width: 100%;
+      max-width: 100%;
       width: 100%;
     }
 }

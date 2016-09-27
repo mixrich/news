@@ -58,3 +58,29 @@
     line-height: 22px;
     margin-left: 55px;
 }
+
+@media all and (max-width: 767px) {
+    .rss__time {
+        width: 60px;
+    }
+
+    .rss__preview {
+        height: 70px;
+        width: 70px;
+        margin-right: 10px;
+    }
+
+    .rss__preview + .rss__title {
+        margin-left: 140px;
+    }
+
+    .rss__title {
+        margin-left: 60px;
+    }
+    .rss_important .rss__title {
+        font-size: 24px;
+        line-height: 36px;
+        /*margin-top: -6px;
+        margin-bottom: -10px;*/
+    }
+}

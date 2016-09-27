@@ -16,3 +16,23 @@
     font-size: 32px;
     line-height: 48px;
 }
+
+@media all and (max-width: 767px) {
+  .rss-news {
+      margin: 26px auto;
+      padding: 0 10px;
+  }
+  .rss-news__header {
+      font-size: 32px;
+      line-height: 44px;
+      margin-bottom: 24px;
+  }
+
+  .rss-news__filter {
+      font-size: 0;
+      line-height: 30px;
+      vertical-align: top;
+      margin-bottom: 30px;
+  }
+
+}

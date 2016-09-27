@@ -43,3 +43,18 @@
     background-color: #0fff00;
     content: "✖";
 }
+
+@media all and (max-width: 767px) {
+    span.toogle {
+      display: inline-block;
+      font-size: 14px;
+      line-height: 24px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+
+    .toogle label {
+      min-height: 24px;
+      line-height: 24px;
+    }
+}

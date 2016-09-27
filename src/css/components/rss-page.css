@@ -15,3 +15,13 @@
     float: left;
     width: 400px;
 }
+
+@media all and (max-width: 767px) {
+    .rss-page__aside {
+      display: none;
+    }
+
+    .rss-page__news {
+      width: 100%;
+    }
+}

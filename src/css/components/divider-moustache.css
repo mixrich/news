@@ -36,3 +36,13 @@
 .news-item:hover .divider-moustache::before, .news-item:hover .divider-moustache::after {
     border-color: #1a1917;
 }
+
+@media all and (max-width: 768px) {
+    .news-item:hover .divider-moustache {
+        background-image: url('./../../images/svg/mustages_green.svg');
+    }
+
+    .news-item:hover .divider-moustache::before, .news-item:hover .divider-moustache::after {
+        border-color: #0fff00;
+    }
+}

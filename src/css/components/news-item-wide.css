@@ -74,4 +74,13 @@ background-color: rgba(0,0,0,0.2);
         max-width: none;
         margin-right: 0;
     }
+
+    .news-item-wide:hover {
+        background: white;
+        color: black;
+    }
+
+    .news-item-wide:hover .news-item-wide__left::before {
+        display: none;
+    }
 }

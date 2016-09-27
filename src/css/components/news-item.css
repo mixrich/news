@@ -180,4 +180,29 @@
         max-width: none;
         margin-right: 0;
     }
+
+    .news-item:hover {
+        background: white;
+        color: black;
+    }
+
+    .news-item:hover .news-item__label-container::before {
+        display: none;
+    }
+
+    .news-item_special:hover {
+        background: white;
+    }
+
+    .news-item_special:hover .news-item__label {
+        background: #0fff00;
+    }
+
+    .news-item_special:hover .news-item__author {
+        color: #a7a7a7;
+    }
+
+    .news-item_special:hover .news-item__label-container::before {
+        display: none;
+    }
 }

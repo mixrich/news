@@ -25,3 +25,9 @@
 .news-item:hover .divider-flora::before {
     background-image: url('./../../images/svg/floran_white.svg');
 }
+
+@media all and (max-width: 768px) {
+    .news-item:hover .divider-flora::before {
+        background-image: url('./../../images/svg/floran.svg');
+    }
+}

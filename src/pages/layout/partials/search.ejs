@@ -1,0 +1,47 @@
+<div id="search" class="search">
+  <div class="search-container">
+    <div class="search-wrapper clearfix">
+      <a href="#" class="search__close">×</a>
+      <div class="search__text-container clearfix">
+        <input class="search__input search__text" name="search-text" type="text" placeholder="Например: Ай да баран">
+        <button class="search__button">
+          <span class="search-logo"></span>
+          Искать
+        </button>
+      </div>
+      <div class="search__categories-container">
+        <h4 class="search__header">Искать в категориях</h4>
+        <div class="categories__toogle-container">
+            <% for (var i=1; i<7; i++) { %>
+                <span  class="toogle categories__toogle" ><input id="cat-<%= i %>" type="checkbox" name="name" value="cat-<%= i %>"> <label for="cat-<%= i %>">Категория <%= i %></label></span>
+
+            <% } %>
+
+            <span id="js-categories-show-all"  class="toogle categories__show-all" >Показать все теги</span>
+
+            <% for (var i=8; i<17; i++) { %>
+                <span  class="toogle categories__toogle hidden" ><input id="cat-<%= i %>" type="checkbox" name="name" value="cat-<%= i %>"> <label for="cat-<%= i %>">Категория <%= i %></label></span>
+
+            <% } %>
+        </div>
+      </div>
+
+      <div class="search__date-container clearfix">
+        <h4 class="search__header">Дата с</h4>
+        <h4 class="search__header search__header_mobile">Дата</h4>
+        <input class="search__input search__date search__date_from" name="search-date-from" type="text" placeholder="Введите дату">
+        <h4 class="search__header">по</h4>
+        <h4 class="search__header search__header_mobile">—</h4>
+        <input class="search__input search__date search__date_to" name="search-date-to" type="text" placeholder="Введите дату">
+      </div>
+
+      <div class="search__author-container clearfix">
+        <h4 class="search__header">У авторов</h4>
+        <select class="search__input search__author" name="search-author">
+          <option>Выберите автора</option>
+        </select>
+      </div>
+
+    </div>
+  </div>
+</div>

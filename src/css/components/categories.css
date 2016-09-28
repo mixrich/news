@@ -39,3 +39,25 @@
     background-image: url();*/
 
 }
+
+
+@media all and (max-width: 767px) {
+    .categories {
+        margin-top: 25px;
+        margin-bottom: 0;
+    }
+
+    .categories__header {
+        font-size: 32px;
+        line-height: 44px;
+        margin-bottom: 8px;
+    }
+
+    span.categories__toogle {
+      margin-right: 0;
+    }
+
+    .categories__toogle label {
+        margin-bottom: 0;
+    }
+}

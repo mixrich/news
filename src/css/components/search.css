@@ -1,0 +1,267 @@
+#search {
+    display: none;
+}
+
+#search:target {
+    display: block;
+}
+
+.search {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.8);
+    overflow-y: auto;
+    z-index: 10;
+}
+
+.search-container {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 97px;
+  padding: 80px 0;
+  background: #f7f7f7;
+}
+
+.search-wrapper {
+  position: relative;
+  width: auto;
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.search__close {
+    text-decoration: none;
+    color: #1a1917;
+    position: absolute;
+    top: -45px;
+    right: -5px;
+    font-size: 60px;
+    line-height: 70px;
+}
+
+.search__input {
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+  font-family: 'Fira Sans';
+  font-size: 18px;
+  line-height: 50px;
+  vertical-align: middle;
+  color: #1a1917;
+  outline: none;
+}
+
+.search__text-container {
+  margin-bottom: 25px;
+}
+
+.search__text {
+  float: left;
+  width: 644px;
+  height: 50px;
+  padding: 15px 20px;
+  margin-right: 10px;
+}
+
+.search__input::-webkit-input-placeholder {
+    font-family: 'Fira Sans';
+    font-size: 18px;
+    line-height: 22px;
+    font-style: italic;
+    vertical-align: middle;
+    color: #a6a6a6;
+}
+
+.search__input::-moz-placeholder {
+    font-family: 'Fira Sans';
+    font-size: 18px;
+    font-style: italic;
+    vertical-align: middle;
+    color: #a6a6a6;
+}
+
+.search__input:-moz-placeholder {
+    font-family: 'Fira Sans';
+    font-size: 18px;
+    font-style: italic;
+    vertical-align: middle;
+    color: #a6a6a6;
+}
+
+.search__input:-ms-input-placeholder {
+    font-family: 'Fira Sans';
+    font-size: 18px;
+    line-height: 22px;
+    font-style: italic;
+    vertical-align: middle;
+    color: #a6a6a6;
+}
+
+.search__button {
+  float: left;
+  width: 125px;
+  height: 50px;
+  border: none;
+  border-radius: 1px;
+  box-sizing: border-box;
+  background: #0fff00;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  font-family: 'Fira Sans';
+  font-size: 18px;
+  line-height: 50px;
+  font-weight: bold;
+}
+
+.search__button .search-logo {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+}
+
+.search h4 {
+  float: left;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-right: 20px;
+  margin-top: 4px;
+}
+
+.search h4.search__header_mobile {
+  display: none;
+}
+
+.search__author-container {
+  margin-right: 49px;
+}
+
+.search__author-container h4,
+.search__date-container h4 {
+  margin-top: 9px;
+}
+
+.search__author {
+  float: left;
+  width: 220px;
+  height: 40px;
+  padding: 10px 15px;
+  font-size: 14px;
+  line-height: 22px;
+  font-style: italic;
+  color: #a6a6a6;
+}
+
+.search__author option {
+
+}
+
+.search__date-container {
+  float: right;
+}
+
+.search__date {
+  float: left;
+  width: 159px;
+  height: 40px;
+  padding: 10px 15px;
+  font-size: 14px;
+  background-image: url('./../../images/calendar.png');
+  background-position: top 6px right 10px;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.search__date_from {
+  margin-right: 10px;
+}
+
+.search__date::-webkit-input-placeholder {
+    font-size: 14px;
+}
+.search__date::-moz-placeholder {
+    font-size: 14px;
+}
+
+.search__date:-moz-placeholder {
+    font-size: 14px;
+}
+
+.search__date:-ms-input-placeholder {
+    font-size: 14px;
+}
+
+
+@media all and (max-width: 859px) {
+    .search__close {
+      right: 35px;
+    }
+
+    .search__text {
+      margin-bottom: 10px;
+    }
+
+    .search__date-container {
+      float: none;
+      margin-bottom: 10px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .search-container {
+      top: 10px;
+      padding: 60px 0 30px;
+    }
+
+    .search-wrapper {
+      padding: 0 10px;
+    }
+
+    .search__close {
+      right: 10px;
+      font-size: 18px;
+      line-height: 22px;
+      font-weight: bold;
+    }
+
+    .search__text {
+      width: 100%;
+      margin-right: 0;
+    }
+
+    .search h4 {
+      float: none;
+      margin-bottom: 5px;
+    }
+
+    .search__date-container h4 {
+      display: none;
+    }
+
+    .search__date-container h4.search__header_mobile {
+      display: block;
+    }
+
+    .search__date-container h4.search__header_mobile:last-of-type {
+      float: left;
+      margin-right: 5px;
+    }
+
+    .search__date {
+      width: 140px;
+      padding: 8px;
+    }
+
+    .search__date_from {
+      margin-right: 5px;
+    }
+
+}

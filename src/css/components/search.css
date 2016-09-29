@@ -125,6 +125,10 @@
   margin-right: 10px;
 }
 
+.search .categories__show-all {
+  margin-left: 0;
+}
+
 .search h4 {
   float: left;
   font-size: 14px;
@@ -144,13 +148,26 @@
   margin-right: 49px;
 }
 
-.search__author-container h4,
-.search__date-container h4 {
+.search__author-container h4 {
   margin-top: 9px;
 }
 
+.search__author-styler {
+    float: left;
+    position: relative;
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
 .search__author {
-  float: left;
+  position: relative;
+  /*float: left;*/
+  left: -1px;
+  top: -1px;
   width: 220px;
   height: 40px;
   padding: 10px 15px;
@@ -158,6 +175,28 @@
   line-height: 22px;
   font-style: italic;
   color: #a6a6a6;
+  border: 0;
+  background: transparent;
+  appearance: none;            /* remove arrow        */
+  -webkit-appearance: none;    /* remove arrow Chrome */
+  -moz-appearance: none;       /* remove arrow FF     */
+  z-index: 2;
+}
+
+.search__author::-ms-expand{
+    display: none;             /* remove arrow IE     */
+}
+
+.search__author-arrow {
+  width: 10px;
+  height: 38px;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 10px;
+  background: #ffffff url('./../../images/svg/arrow-down.svg') no-repeat top right; /* картинка кнопки со стрелкой вниз */
+  background-position: top 15px right;
+  background-size: auto;
 }
 
 .search__author option {
@@ -167,6 +206,12 @@
 .search__date-container {
   float: right;
 }
+
+.search__date-container h4 {
+  margin-top: 9px;
+  margin-right: 10px;
+}
+
 
 .search__date {
   float: left;
@@ -226,10 +271,14 @@
     }
 
     .search__close {
-      right: 10px;
-      font-size: 18px;
-      line-height: 22px;
-      font-weight: bold;
+      top: -38px;
+      right: 20px;
+      font-size: 0;
+      width: 20px;
+      height: 20px;
+      background-image: url('./../../images/svg/cross.svg');
+      background-repeat: no-repeat;
+      background-size: 18px 18px;
     }
 
     .search__text {
@@ -252,16 +301,32 @@
 
     .search__date-container h4.search__header_mobile:last-of-type {
       float: left;
-      margin-right: 5px;
+      margin-right: 4px;
+      margin-left: 4px;
     }
 
     .search__date {
       width: 140px;
+      /*width: calc(50% - 17px);*/
+      /*margin: 0;*/
       padding: 8px;
+      background-position: top 6px right 8px;
     }
 
     .search__date_from {
-      margin-right: 5px;
+      margin-right: 0;
+    }
+
+    .search__author-container {
+      margin: 0;
+    }
+
+    .search__author-styler {
+      width: 100%;
+    }
+
+    .search__author {
+      width: calc(100% + 2px);
     }
 
 }

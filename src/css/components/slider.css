@@ -39,6 +39,7 @@
     border-radius: 0;
     font-size: 20px;
     padding-bottom: 3px;
+    cursor: pointer;
 }
 
 .slider .slick-prev {
@@ -76,6 +77,14 @@
     border: none;
     border-radius: 50%;
     color: transparent;
+    vertical-align: middle;
+}
+
+.slider .slick-dots li.slick-active button{
+    border: 1px solid black;
+    background: #0fff00;
+    width: 12px;
+    height: 12px;
 }
 
 @media all and (max-width: 840px) {

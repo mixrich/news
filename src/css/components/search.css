@@ -301,13 +301,19 @@
 
     .search__date-container h4.search__header_mobile:last-of-type {
       float: left;
-      margin-right: 4px;
-      margin-left: 4px;
+      display: block;
+      width: 20px;
+      text-align: center;
+      vertical-align: middle;
+      margin-right: 0;
+      /*margin-right: 4px;
+      margin-left: 4px;*/
     }
 
     .search__date {
-      width: 140px;
-      /*width: calc(50% - 17px);*/
+      /*width: 140px;*/
+      width: calc(50% - 10px);
+      max-width: 159px;
       /*margin: 0;*/
       padding: 8px;
       background-position: top 6px right 8px;
@@ -322,11 +328,15 @@
     }
 
     .search__author-styler {
-      width: 100%;
+      /*width: 100%;*/
+      width: 300px;
+      max-width: 100%;
     }
 
     .search__author {
-      width: calc(100% + 2px);
+      /*width: calc(100% + 2px);*/
+      width: 300px;
+      max-width: calc(100% + 2px);
     }
 
 }

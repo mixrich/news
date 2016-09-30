@@ -1,7 +1,8 @@
 .rss-news {
     margin: 40px auto;
     max-width: 850px;
-    padding: 0 20px;
+    /*padding: 0 20px;*/
+    padding: 0 25px 0 40px;
     box-sizing: border-box;
 }
 
@@ -15,6 +16,13 @@
     margin-bottom: 40px;
     font-size: 32px;
     line-height: 48px;
+}
+
+.rss-news__date {
+    margin: 50px 0 30px 80px;
+    font-size: 24px;
+    line-height: 22px;
+    font-weight: bold;
 }
 
 @media all and (max-width: 767px) {
@@ -33,6 +41,10 @@
       line-height: 30px;
       vertical-align: top;
       margin-bottom: 30px;
+  }
+
+  .rss-news__date {
+      margin: 40px 0 20px 60px;
   }
 
 }

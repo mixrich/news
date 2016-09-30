@@ -1,5 +1,9 @@
 .rss-list {
+  margin-left: 10px;
+}
 
+.rss-list_preview {
+  margin-left: 0;
 }
 
 .rss-list__item {
@@ -8,4 +12,10 @@
 
 .rss-list_preview .rss-list__item {
     margin-bottom: 10px;
+}
+
+@media all and (max-width: 767px) {
+    .rss-list {
+      margin-left: 0;
+    }
 }

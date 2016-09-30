@@ -69,14 +69,24 @@
     display: none;
 }
 
+@media all and (max-width: 959px) {
+  .header {
+      display: none;
+  }
+
+  .header_mobile {
+      display: block;
+  }
+}
+
 @media all and (max-width: 767px) {
-    .header {
+    /*.header {
         display: none;
     }
 
     .header_mobile {
         display: block;
-    }
+    }*/
 
     .header__age {
         margin: 0;

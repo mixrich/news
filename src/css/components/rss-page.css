@@ -31,14 +31,22 @@
     }
 }
 
+@media all and (max-width: 959px) {
+  .rss-page__news {
+    min-width: 100%;
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
 @media all and (max-width: 767px) {
     /*.rss-page__aside {
       display: none;
     }*/
 
-    .rss-page__news {
+    /*.rss-page__news {
       min-width: 100%;
       max-width: 100%;
       width: 100%;
-    }
+    }*/
 }

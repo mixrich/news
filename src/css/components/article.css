@@ -185,9 +185,14 @@
     .article {
         width: calc(100% - 320px);
     }
+
+    .article__comments-container .aside {
+      display: block;
+    }
 }
 
-@media all and (max-width: 767px) {
+
+@media all and (max-width: 959px) {
     .article {
       min-width: 100%;
       max-width: 100%;
@@ -196,6 +201,16 @@
       /*padding: 10px;*/
       /*box-sizing: border-box;*/
     }
+}
+
+
+
+@media all and (max-width: 767px) {
+    /*.article {
+      min-width: 100%;
+      max-width: 100%;
+      width: 100%;
+    }*/
 
     .article .wrapper {
       padding: 0 10px;
@@ -253,6 +268,10 @@
     /*.article-news-panel {
       display: none;
     }*/
+
+    .article__comments-container .aside {
+      display: none;
+    }
 
     .article__comments-widget {
       min-width: 100%;

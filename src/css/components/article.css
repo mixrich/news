@@ -10,10 +10,10 @@
   color: #1a1917;
 }
 
-.article .wrapper {
+/*.article .wrapper {
   max-width: 820px;
   padding: 0 40px;
-}
+}*/
 
 .article h1 {
   font-size: 60px;
@@ -41,7 +41,7 @@
   margin-bottom: 12px;
 }
 
-.article img {
+.article > img {
   display: block;
   width: 100%;
   height: auto;
@@ -63,11 +63,11 @@
   display: inline-block;
   margin-right: 10px;
 }
-
+/*
 .article__section {
   padding: 0;
   margin: 45px 0;
-}
+}*/
 
 .article .divider-flora {
   margin-bottom: 40px;
@@ -192,7 +192,7 @@
       margin-bottom: 26px;
     }
 
-    .article img {
+    .article > img {
       width: calc(100% + 20px);
       margin-left: -10px;
       margin-top: 20px;
@@ -243,4 +243,16 @@
       width: 100%;
       margin-right: 0;
     }
+}
+
+
+.article > * {
+    max-width: 820px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.article > .slider {
+    max-width: none;
+    width: 100%;
 }

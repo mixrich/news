@@ -15,23 +15,23 @@
   padding: 0 40px;
 }
 
-.article h1 {
+.article h1 {/*
   font-size: 60px;
   line-height: 70px;
   margin-top: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 20px;*/
 }
 
-.article h2 {
+.article h2 {/*
   font-weight: bold;
   font-size: 24px;
-  line-height: 36px;
+  line-height: 36px;*/
 }
 
-.article h3 {
+.article h3 {/*
   margin-bottom: 18px;
   font-size: 32px;
-  line-height: 48px;
+  line-height: 48px;*/
 }
 
 .article p {
@@ -41,12 +41,12 @@
   margin-bottom: 12px;
 }
 
-.article img {
+.article img {/*
   display: block;
   width: 100%;
   height: auto;
   margin-top: 32px;
-  margin-bottom: 15px;
+  margin-bottom: 15px;*/
 }
 
 .article__social-button-container {
@@ -62,42 +62,6 @@
 .article__social-button {
   display: inline-block;
   margin-right: 10px;
-}
-
-.article__author {
-  display: inline-block;
-  width: 100%;
-  height: 60px;
-  margin-bottom: 32px;
-  font-size: 0;
-  text-align: left;
-  vertical-align: middle;
-}
-
-.article__author:before {
-  content: '';
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
-}
-
-.article img.article__author__photo {
-  display: block;
-  width: 60px;
-  height: 60px;
-  margin: 0;
-  margin-right: 10px;
-}
-
-.article__author img.article__author__photo {
-  float: left;
-  vertical-align: middle;
-}
-
-.article__author__name {
-  vertical-align: middle;
-  font-size: 14px;
-  line-height: 22px;
 }
 
 .article__section {

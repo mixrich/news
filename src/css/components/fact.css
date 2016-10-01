@@ -1,0 +1,46 @@
+.picture {
+    background: #f7f7f7 url('./../../images/svg/question_white.svg') -17px 10px no-repeat,
+                #f7f7f7 url('./../../images/svg/question_white.svg') bottom 7px right 10px no-repeat;
+    background-size: auto 130px, auto 65px;
+    padding: 40px;
+    margin-bottom: 40px;
+}
+
+.picture::after {
+    clear: both;
+    display: table;
+    content: "";
+}
+
+.picture img {
+    float: left;
+    width: 140px;
+    height: auto;
+    margin: 0;
+}
+
+.picture p {
+    margin: 0;
+    margin-left: 160px;
+    font-size: 16px;
+    line-height: 24px;
+    font-style: italic;
+}
+
+@media all and (max-width: 600px) {
+    .picture {
+        padding: 20px;
+
+    }
+
+    .picture img {
+        display: block;
+        float: none;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .picture p {
+        margin: 0;
+    }
+}

@@ -550,6 +550,65 @@
             });
         </script>
         <script src="./js/app.js"></script>
+
+
+
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <!--<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>-->
+        <script type="text/javascript" src="./js/slick.min.js"></script>
+
+        <script type="text/javascript">
+            $('.slider').slick({
+                centerMode: true,
+                centerPadding: '60px',
+                slidesToShow: 3,
+                arrows: true,
+                variableWidth: true,
+                prevArrow: '<button type="button" class="slick-prev">&#8592</button>',
+                nextArrow: '<button type="button" class="slick-next">&#8594;</button>',
+                responsive: [
+                {
+                  breakpoint: 1160,
+                  settings: {
+                    arrows: false,
+                    centerMode: false,
+                    centerPadding: '40px',
+                    slidesToShow: 1,
+                    adaptiveHeight: true,
+                    variableWidth: false,
+                    dots: true
+                  }
+                },
+                {
+                  breakpoint: 959,
+                  settings: {
+                    arrows: true,
+                    centerMode: true,
+                    centerPadding: '60px',
+                    slidesToShow: 3,
+                    adaptiveHeight: true,
+                    variableWidth: true,
+                    dots: false
+                  }
+                },
+                {
+                    breakpoint: 840,
+                    settings: {
+                      arrows: false,
+                      centerMode: false,
+                      centerPadding: '40px',
+                      slidesToShow: 1,
+                      adaptiveHeight: true,
+                      variableWidth: false,
+                      dots: true
+                    }
+                }
+                ]
+            });
+        </script>
+
+
     </body>
 </html>
 

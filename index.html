@@ -156,11 +156,11 @@
             
                 <div id="search" class="search">
   <div class="search-container">
-    <div class="search-wrapper clearfix">
+    <form class="search-wrapper clearfix" action="/search">
       <a href="#" class="search__close">×</a>
       <div class="search__text-container clearfix">
-        <input class="search__input search__text" name="search-text" type="text" placeholder="Например: Ай да баран">
-        <button class="search__button">
+        <input class="search__input search__text" name="search-text" type="search" placeholder="Например: Ай да баран">
+        <button class="search__button" type="submit">
           <span class="search-logo"></span>
           Искать
         </button>
@@ -168,6 +168,7 @@
       <div class="search__categories-container">
         <h4 class="search__header">Искать в категориях</h4>
         <div class="categories__toogle-container">
+            <span id="categories-all"  class="toogle categories__toogle" ><input id="cat-all>" type="checkbox" name="name" value="cat-all" checked> <label for="cat-all>">Во всех</label></span>
             
                 <span  class="toogle categories__toogle" ><input id="cat-1" type="checkbox" name="name" value="cat-1"> <label for="cat-1">Категория 1</label></span>
 
@@ -175,20 +176,20 @@
                 <span  class="toogle categories__toogle" ><input id="cat-2" type="checkbox" name="name" value="cat-2"> <label for="cat-2">Категория 2</label></span>
 
             
-                <span  class="toogle categories__toogle" ><input id="cat-3" type="checkbox" name="name" value="cat-3"> <label for="cat-3">Категория 3</label></span>
+
+            <span id="js-categories-show-all"  class="toogle categories__show-all" >Показать все</span>
 
             
-                <span  class="toogle categories__toogle" ><input id="cat-4" type="checkbox" name="name" value="cat-4"> <label for="cat-4">Категория 4</label></span>
+                <span  class="toogle categories__toogle hidden" ><input id="cat-4" type="checkbox" name="name" value="cat-4"> <label for="cat-4">Категория 4</label></span>
 
             
-                <span  class="toogle categories__toogle" ><input id="cat-5" type="checkbox" name="name" value="cat-5"> <label for="cat-5">Категория 5</label></span>
+                <span  class="toogle categories__toogle hidden" ><input id="cat-5" type="checkbox" name="name" value="cat-5"> <label for="cat-5">Категория 5</label></span>
 
             
-                <span  class="toogle categories__toogle" ><input id="cat-6" type="checkbox" name="name" value="cat-6"> <label for="cat-6">Категория 6</label></span>
+                <span  class="toogle categories__toogle hidden" ><input id="cat-6" type="checkbox" name="name" value="cat-6"> <label for="cat-6">Категория 6</label></span>
 
             
-
-            <span id="js-categories-show-all"  class="toogle categories__show-all" >Показать все теги</span>
+                <span  class="toogle categories__toogle hidden" ><input id="cat-7" type="checkbox" name="name" value="cat-7"> <label for="cat-7">Категория 7</label></span>
 
             
                 <span  class="toogle categories__toogle hidden" ><input id="cat-8" type="checkbox" name="name" value="cat-8"> <label for="cat-8">Категория 8</label></span>
@@ -232,12 +233,23 @@
 
       <div class="search__author-container clearfix">
         <h4 class="search__header">У авторов</h4>
-        <select class="search__input search__author" name="search-author">
-          <option>Выберите автора</option>
-        </select>
+        <div class="search__author-styler">
+          <select class="search__input search__author" name="search-author">
+            <option>Выберите автора</option>
+            <option>Катерина Кайгородова</option>
+            <option>Катерина Кайгородова</option>
+            <option>Катерина Кайгородова</option>
+            <option>Катерина Кайгородова</option>
+            <option>Катерина Кайгородова</option>
+            <option>Катерина Кайгородова</option>
+            <option>Катерина Кайгородова</option>
+            <option>Катерина Кайгородова</option>
+          </select>
+          <div class="search__author-arrow"></div>
+        </div>
       </div>
 
-    </div>
+    </form>
   </div>
 </div>
 

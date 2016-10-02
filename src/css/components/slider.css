@@ -3,6 +3,7 @@
     height: 530px;
     overflow: hidden;
     position: relative;
+    background: black;
 }
 
 .slider::after {
@@ -52,7 +53,8 @@
 
 .slider img {
     width: 820px;
-    height: auto;
+    height: 530px;
+    object-fit: contain;
 }
 
 .slider .slick-dots {

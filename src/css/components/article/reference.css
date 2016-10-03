@@ -1,0 +1,153 @@
+.reference-container {
+  margin: 0 auto;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.reference {
+  display: block;
+  width: 100%;
+  padding: 20px 0 16px 20px;
+  background: #f7f7f7;
+  text-transform: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  color: #1a1917;
+  position: relative;
+  height: 100px;
+}
+
+.reference__photo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    float: left;
+}
+
+.reference__link {
+    display: inline-block;
+    vertical-align: middle;
+    width: 120px;
+    padding-right: 100px;
+    font-size: 14px;
+    line-height: 22px;
+    float: right;
+    margin-top: 10px;
+    color: #e8e8e8;
+}
+
+.reference__content {
+    float: left;
+    display: inline-block;
+    vertical-align: middle;
+    width: 340px;
+    padding-right: 30px;
+
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: -2px;
+}
+
+.reference__content p {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.reference:before,
+.reference:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+
+}
+.reference:before {
+    bottom: 0;
+    top: auto;
+    border: 25px solid transparent;
+    border-right: 25px solid white;
+    border-bottom: 25px solid white
+}
+.reference:after {
+    border: 25px solid transparent;
+    border-top: 25px solid white;
+    border-right: 25px solid white;
+}
+
+.reference:hover,
+.reference:hover:before,
+.reference:hover:after {
+/*  background: #ff00ff;
+  cursor: pointer;*/
+}
+
+.reference:hover .reference__text {
+/*  color: #ffffff;*/
+}
+
+.reference:hover .reference__link-name {
+/*  text-decoration: underline;*/
+}
+
+.reference img.article__author__photo {
+/*  position: absolute;
+  top: 20px;
+  left: 20px;*/
+}
+
+.reference p {
+  margin-bottom: 0;
+}
+
+.reference__text {
+/*  margin: -5px 170px 0 80px;
+  color: #1a1917;*/
+}
+
+.reference__author-name {
+/*  font-weight: bold;*/
+}
+/*
+.reference__link {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  z-index: 5;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 120px;
+  color: #e6e6e6;
+}*/
+
+@media all and (max-width: 767px) {
+    .reference-container {
+      margin: 24px 0;
+    }
+
+    .reference {
+      width: 100%;
+    }
+
+    .reference:before,
+    .reference:after {
+      display: none;
+    }
+
+    .reference__text {
+      margin-right: 5px;
+      margin-left: 75px;
+    }
+
+    .reference__link {
+      display: none;
+    }
+}

@@ -39,11 +39,6 @@
 @import "components/article.css";
 @import "components/article-image.css";
 @import "components/social-button.css";
-@import "components/quote.css";
-@import "components/reference.css";
-@import "components/article-incut.css";/*
-@import "components/article-fact.css";*/
-@import "components/fact.css";
 @import "components/subscribe-form.css";
 @import "components/article-feedback-container.css";
 @import "components/article-news-block.css";
@@ -52,3 +47,10 @@
 
 
 @import "components/quote-legasy.css";
+
+
+@import "components/article/header-flora.css";
+@import "components/article/fact.css";
+@import "components/article/incut.css";
+@import "components/article/quote.css";
+@import "components/article/reference.css";

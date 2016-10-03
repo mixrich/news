@@ -1,0 +1,28 @@
+/* Incut Component */
+.incut {
+    width: 100%;
+    margin-bottom: 40px;
+}
+.incut .divider-hat, .incut .divider-moustache {
+    margin: 0;
+}
+.incut__content {
+    margin: 20px auto 10px;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+}
+.incut__content p {
+    font-size: inherit;
+    line-height: inherit;
+}
+@media all and (max-width: 767px) {
+    .incut {
+        padding-bottom: 15px;
+    }
+    .incut__content {
+        margin: 20px auto 15px;
+        font-size: 32px;
+        line-height: 44px;
+    }
+}

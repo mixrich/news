@@ -1,0 +1,85 @@
+.quote-container {
+    width: 100%;
+    padding-left: 80px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+    background: url('/images/svg/quote_left.svg') 0 0 no-repeat;
+    background-size: 60px 60px;
+}
+.quote {
+    padding: 40px 40px 35px 40px;
+    background: #f7f7f7 url('/images/svg/quote_right.svg') no-repeat;
+    background-position: bottom 12px right 12px;
+    background-size: 50px 50px;
+}
+.quote__content p {
+    font-size: 18px;
+    line-height: 27px;
+    vertical-align: top;
+    margin: 0;
+    margin-top: 13px;
+}
+.quote p:first-of-type {
+    margin: 0;
+}
+.quote p:first-of-type::first-letter {
+    float: left;
+    font-size: 50px;
+    font-weight: bold;
+    color: #ff00ff;
+    margin-top: 16px;
+    margin-right: 5px;
+}
+.quote__author {
+    width: 100%;
+}
+.quote__author .quote__author__photo {
+    width: 140px;
+    height: 140px;
+    margin: 8px 20px 15px 0;
+    float: left;
+    background: #ff00ff;
+}
+.quote__author__info {
+    display: block;
+    margin-top: -8px;
+    margin-bottom: 5px;
+    font-family: "Georgia", serif;
+    font-style: italic;
+    vertical-align: top;
+}
+.quote__author__name {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: bold;
+}
+.quote__author__position {
+    font-size: 16px;
+    line-height: 27px;
+}
+@media all and (max-width: 767px) {
+    .quote-container {
+        padding: 0;
+        margin: 25px 0;
+        background: none;
+    }
+    .quote {
+        padding: 20px 20px 10px 20px;
+    }
+    .quote__author .quote__author__photo {
+        margin-right: 10px;
+        margin-top: 4px;
+    }
+    .quote__author__info {
+        margin-top: -4px;
+    }
+    .quote__author__name {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .quote__author__position {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}

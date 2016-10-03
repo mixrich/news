@@ -4,6 +4,7 @@
     overflow: hidden;
     position: relative;
     background: black;
+    margin-bottom: 40px;
 }
 
 .slider::after {

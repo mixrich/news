@@ -45,10 +45,11 @@
 
 @import "components/author.css";
 
+/*
+@import "components/quote-legasy.css";*/
 
-@import "components/quote-legasy.css";
 
-
+@import "components/article/article-legacy.css";
 @import "components/article/header-flora.css";
 @import "components/article/fact.css";
 @import "components/article/incut.css";

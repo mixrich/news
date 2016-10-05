@@ -143,6 +143,9 @@
 @media all and (max-width: 1279px) {
     .article {
         width: calc(100% - 320px);
+        padding-left: 40px;
+        padding-right: 40px;
+        box-sizing: border-box;
     }
 
     .article__comments-container .aside {

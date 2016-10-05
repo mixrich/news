@@ -23,3 +23,17 @@
     color: #1a1917;
     text-decoration: none;
 }
+
+.header-bottom-menu__item:hover .header-bottom-menu__link {
+    color: #ff00ff;
+    border-bottom: 1px solid #ff00ff;
+}
+
+.header-bottom-menu__item:active .header-bottom-menu__link {
+    color: #1a1917;
+    border: none;
+    padding: 4px 8px 4px 7px;
+    background: #0fff00;
+    margin-left: -7px;
+    margin-right: -8px;
+}

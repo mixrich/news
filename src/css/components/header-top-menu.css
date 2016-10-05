@@ -28,3 +28,18 @@
     font-weight: bold;
 
 }
+
+.header-top-menu__item:hover .header-top-menu__link {
+    color: #ff00ff;
+    border-bottom: 1px solid #ff00ff;
+}
+
+
+.header-top-menu__item:active .header-top-menu__link {
+    color: #1a1917;
+    border: none;
+    padding: 10px;
+    background: #0fff00;
+    margin-left: -10px;
+    margin-right: -10px;
+}

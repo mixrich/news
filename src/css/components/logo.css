@@ -6,3 +6,7 @@
     display: inline-block;
     vertical-align: middle;
 }
+
+.logo:hover {
+    background-image: url('./../../images/svg/logo_pink.svg');
+}

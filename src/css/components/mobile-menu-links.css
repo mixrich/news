@@ -1,5 +1,5 @@
 .mobile-menu-links {
-    padding-left: 55px;
+    padding-left: 65px;
 }
 
 
@@ -18,4 +18,11 @@
 .mobile-menu-links__link {
     text-decoration: none;
     color: #1a1917;
+}
+
+
+@media all and (max-width: 767px)  {
+  .mobile-menu-links {
+      padding-left: 55px;
+  }
 }

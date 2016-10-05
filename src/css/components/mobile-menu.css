@@ -7,7 +7,8 @@
 }
 
 .mobile-menu {
-    padding: 20px;
+    /*padding: 20px;*/
+    padding: 20px 40px;
 
     position: fixed;
     top: 0;
@@ -21,6 +22,7 @@
 
 .mobile-menu__header {
     margin-bottom: 40px;
+    margin-top: 5px;
 }
 
 .mobile-menu__search {
@@ -32,6 +34,7 @@
     background-size: 20px 20px;
     background-position: center right;
     margin-top: 11px;
+    margin-right: 10px;
     display: block;
 }
 
@@ -40,7 +43,8 @@
     color: #1a1917;
     display: inline-block;
     margin-right: 25px;
-    margin-left: 10px;
+    /*margin-left: 10px;*/
+    margin-left: 20px;
     width: 20px;
     height: 20px;
     background-image: url('./../../images/svg/cross.svg');
@@ -53,4 +57,22 @@
     display: inline-block;
     vertical-align: middle;
 
+}
+
+@media all and (max-width: 767px)  {
+    .mobile-menu {
+      padding: 20px;
+    }
+
+    .mobile-menu__header {
+        margin-top: 0;
+    }
+
+    .mobile-menu__search {
+      margin-right: 0;
+    }
+
+    .mobile-menu__close {
+      margin-left: 10px;
+    }
 }

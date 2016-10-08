@@ -16,3 +16,12 @@
     width: 15px;
     height: 15px;
 }
+
+
+.header-bottom-menu__link.search-logo {
+    margin-bottom: 3px;
+}
+
+.header-bottom-menu__item:hover .search-logo {
+    border: none !important;
+}

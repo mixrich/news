@@ -60,6 +60,7 @@
         max-width: none;
         margin-right: 0;
         height: auto;
+        min-width: 0;
     }
 
     .rss-block__link {

@@ -12,22 +12,6 @@
     box-sizing: border-box;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .footer-menu {
     color: white;
     text-transform: uppercase;
@@ -46,11 +30,9 @@
     text-decoration: none;
     color: inherit;
     letter-spacing: 0.04em;
+    line-height: 22px;
 
 }
-
-
-
 
 
 
@@ -73,6 +55,7 @@
 .footer-links__link {
     text-decoration: none;
     color: inherit;
+    line-height: 22px;
 }
 
 
@@ -104,11 +87,11 @@
 .footer-social__link {
     text-decoration: none;
     color: inherit;
-    line-height: 24px;
+    line-height: 22px;
 }
 
 
-@media all and (max-width: 767px) {
+@media all and (max-width: 855px) {
     .footer {
       position: relative;
     }

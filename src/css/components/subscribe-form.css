@@ -1,3 +1,8 @@
+.subscribe-form_inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
 .subscribe-form__input-container {
     margin-bottom: 7px;
 }

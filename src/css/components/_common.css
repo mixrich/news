@@ -24,6 +24,12 @@ i,em {
     font-style: italic;
 }
 
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+}
+
 @media all and (max-width: 767px) {
     .news-item-wrapper {
         margin-right: 0;

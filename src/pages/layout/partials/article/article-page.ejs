@@ -1,22 +1,20 @@
 <img class="article-image" src="images/head_pic.jpg" alt="" />
 
+<div class="clearfix">
     <%- include('../common/aside') %>
-
 
     <article class="article clearfix">
             <h1>От самолетных ламп к «лампочке томича»: ТЭЛЗ и его истории</h1>
 
-            <div class="article__social-button-container">
-            <%- include('../common/social-button-container') %>
-            </div>
+            <%- include('./social-buttons') %>
 
-            <%- include('./__author') %>
+            <%- include('./new/author') %>
 
-            <h2>
+            <p>
                 В этом году «большой» томской промышленности исполняется 75 лет.
                 Официальный отсчет ведется с 1941 года, когда после начала Великой Отечественной войны
                 в Томск были эвакуированы крупные столичные предприятия.
-            </h2>
+            </p>
 
             <p>В нашем новом спецпроекте «Томская промышленность» рассказываем о крупнейших предприятиях региона.
                 Часть из них — наследники перевезенных предприятий, часть — родились и росли в Сибири, но все они полны интересных людей и историй.</p>
@@ -56,8 +54,6 @@
             <p>Первое предприятие серии — Томский электроламповый завод, когда-то стартовавший выпуском самолетных ламп для фронта,
                     а сегодня изготавливающий «лампочку томича».</p>
 
-
-
             <p>Днем рождения Томского электролампового завода считается 15 декабря 1941,
               когда здесь была выпущена первая партия самолетных ламп.</p>
 
@@ -80,16 +76,18 @@
             <%- include('./legacy/expert') %>
 
     </article>
-<!-- </div> -->
+
+</div>
 
 <div class="article-feedback-container">
   <div class="wrapper clearfix">
-    <div class="article__social-button-container">
-      <%- include('../common/social-button-container') %>
-    </div>
+      <%- include('./social-buttons', {
+          addClass: "social-button-container_inline-block"
+      }) %>
+
 
     <%- include('../common/subscribe-form', {
-        addClass: "subscribe-form_light"
+        addClass: "subscribe-form_light subscribe-form_inline-block"
     }) %>
 
 
@@ -123,8 +121,4 @@
     </div>
     <div class="article__comments-widget"></div>
   </div>
-</div>
-
-<div class="article__social-button-container article__social-button-container_mobile clearfix">
-  <%- include('../common/social-button-container') %>
 </div>

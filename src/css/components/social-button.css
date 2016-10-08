@@ -1,116 +1,114 @@
+.social-button-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.social-button-container_inline-block {
+    margin-top: 0;
+    margin-bottom: 0;
+    display: inline-block;
+    vertical-align: top;
+}
+
 .social-button {
-  display: inline-block;
-  width: 90px;
-  height: 40px;
-  padding: 5px;
-  vertical-align: middle;
-  border-radius: 1px;
-  box-sizing: border-box;
-  position: relative;
-  background: #44629e;
+    display: block;
+    float: left;
+    margin-right: 10px;
+    width: 90px;
+    height: 40px;
+    padding: 5px;
+    vertical-align: middle;
+    border-radius: 1px;
+    box-sizing: border-box;
+    position: relative;
+    background: #44629e;
 }
-
 .social-button:before {
-  content: '';
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
-  font-size: 0;
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    font-size: 0;
 }
-
 .social-button:hover {
-  cursor: pointer;
+    cursor: pointer;
 }
-
 .social-button__icon {
-  display: inline-block;
-  width: 40px;
-  height: 30px;
-  position: absolute;
-  top: 5px;
-  left: 0;
-  font-size: 0;
-  border-right: 1px solid #ffffff;
-  vertical-align: middle;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
+    display: inline-block;
+    width: 40px;
+    height: 30px;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    font-size: 0;
+    border-right: 1px solid #ffffff;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
 }
-
 .social-button__number {
-  display: inline-block;
-  margin-left: 45px;
-  font-size: 14px;
-  vertical-align: middle;
-  color: #ffffff;
+    display: inline-block;
+    margin-left: 45px;
+    font-size: 14px;
+    vertical-align: middle;
+    color: #ffffff;
 }
-
 .social-button_fb {
-  background: #44629e;
+    background: #44629e;
 }
 .social-button_fb .social-button__icon {
-  background-image: url('./../../images/svg/share_fb_white.svg');
+    background-image: url('./../../images/svg/share_fb_white.svg');
 }
-
 .social-button_vk {
-  background: #51749c;
+    background: #51749c;
 }
 .social-button_vk .social-button__icon {
-  background-image: url('./../../images/svg/share_vk_white.svg');
+    background-image: url('./../../images/svg/share_vk_white.svg');
 }
-
 .social-button_tw {
-  background: #22b9eb;
+    background: #22b9eb;
 }
 .social-button_tw .social-button__icon {
-  background-image: url('./../../images/svg/share_tw_white.svg');
+    background-image: url('./../../images/svg/share_tw_white.svg');
 }
-
 .social-button_ok {
-  background: #ff671b;
+    background: #ff671b;
 }
 .social-button_ok .social-button__icon {
-  background-image: url('./../../images/svg/share_ok_white.svg');
+    background-image: url('./../../images/svg/share_ok_white.svg');
 }
-
-.social-button_wa,
-.social-button_tg {
-  display: none;
-}
-
-@media all and (max-width: 767px) {
-  .social-button {
-    width: 16.666667%;
-    height: 40px;
-    margin-right: 0;
-  }
-
-  .social-button__icon {
-    width: 100%;
-    height: 100%;
-    top: 0;
-    border: 0;
-    background-size: auto 100%;
-  }
-
-  .social-button__number {
+.social-button_wa, .social-button_tg {
     display: none;
-  }
-
-  .social-button_wa {
-    display: inline-block;
-    background: #6abc5d;
-  }
-  .social-button_wa .social-button__icon {
-    background-image: url('./../../images/svg/share_wa_white.svg');
-  }
-
-  .social-button_tg {
-    display: inline-block;
-    background: #2ca5e0;
-  }
-  .social-button_tg .social-button__icon {
-    background-image: url('./../../images/svg/share_tg_white.svg');
-  }
-
+}
+@media all and (max-width: 767px) {
+    .social-button {
+        width: 16.666667%;
+        height: 40px;
+        margin-right: 0;
+    }
+    .social-button__icon {
+        width: 100%;
+        height: 100%;
+        top: 0;
+        border: 0;
+        background-size: auto 100%;
+    }
+    .social-button__number {
+        display: none;
+    }
+    .social-button_wa {
+        display: inline-block;
+        background: #6abc5d;
+    }
+    .social-button_wa .social-button__icon {
+        background-image: url('./../../images/svg/share_wa_white.svg');
+    }
+    .social-button_tg {
+        display: inline-block;
+        background: #2ca5e0;
+    }
+    .social-button_tg .social-button__icon {
+        background-image: url('./../../images/svg/share_tg_white.svg');
+    }
 }

@@ -8,18 +8,14 @@
   padding: 20px 0 10px;
   background: #ffffff;
   color: #1a1917;
+  float: left;
 }
 
-/*.article .wrapper {
-  max-width: 820px;
-  padding: 0 40px;
-}*/
-
-.article h1 {/*
+.article h1 {
   font-size: 60px;
   line-height: 70px;
   margin-top: 15px;
-  margin-bottom: 20px;*/
+  margin-bottom: 20px;
 }
 
 .article h2 {
@@ -44,62 +40,11 @@
   margin-bottom: 40px;
 }
 
-.article__social-button-container {
-  height: 40px;
-  margin-bottom: 40px;
-  font-size: 0;
-}
 
-.article__social-button-container_mobile {
-  display: none;
-}
 
-.article__social-button {
-  display: inline-block;
-  margin-right: 10px;
-}
-/*
-.article__section {
-  padding: 0;
-  margin: 45px 0;
-}*/
 
-.article .divider-flora {/*
-  margin-bottom: 40px;*/
-}
 
-.article .divider-moustache {
-    background-image: url('./../../images/svg/mustages.svg');
-}
 
-.article .divider-moustache::before,
-.article .divider-moustache::after {
-    border-bottom: 1px solid #1a1917;
-}
-
-/*.article-news-panel {
-  float: right;
-  min-width: 320px;
-  max-width: 420px;
-  width: 25%;
-  padding: 10px;
-  background: #f7f7f7;
-  box-sizing: border-box;
-}
-
-.article-news-panel .news-item {
-  width: 100%;
-  margin: 0;
-  margin-bottom: 10px;
-}*/
-
-/*.article-news-panel .fb-widget {
-  width: 300px;
-  height: 250px;
-  margin: 0 auto;
-  margin-bottom: 10px;
-  background: #f3f3f3;
-}*/
 
 .article__comments-container .aside {
   min-width: 260px;
@@ -182,9 +127,6 @@
       min-width: 100%;
       max-width: 100%;
       width: 100%;
-      /*margin-right: 0;*/
-      /*padding: 10px;*/
-      /*box-sizing: border-box;*/
     }
 }
 
@@ -223,40 +165,6 @@
       margin-top: 20px;
       margin-bottom: 26px;
     }
-
-    .article__author {
-      margin-bottom: 40px;
-    }
-
-    .article__section {
-      margin: 28px 0;
-    }
-
-    .article .divider-flora {
-      margin-bottom: 20px;
-    }
-
-    .article__social-container {
-      margin-bottom: 0;
-    }
-
-    .article__social-button-container {
-      display: none;
-    }
-
-    .article__social-button-container_mobile {
-      display: block !important;
-      width: 100%;
-      margin: 0;
-      position: fixed;
-      bottom: 0;
-      z-index: 5;
-      font-size: 0;
-    }
-
-    /*.article-news-panel {
-      display: none;
-    }*/
 
     .article__comments-container .aside {
       display: none;

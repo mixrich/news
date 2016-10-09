@@ -27,19 +27,13 @@
 }
 @media all and (max-width: 767px) {
     .fact {
-        padding: 20px 20px 12px 20px;
-        margin-left: -10px;
-        margin-right: -10px;
-        margin-bottom: 34px;
+        padding: 20px;
     }
-    /*.fact > img {
-      display: block;
-      float: none;
-      margin-right: 0;
-      margin-bottom: 15px;
-    }*/
-    /*
-    .fact > p {
-      margin: 0;
-    }*/
+    .fact__image-container {
+        float: none;
+        margin-bottom: 15px;
+    }
+    .fact__content {
+        margin: 0;
+    }
 }

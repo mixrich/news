@@ -30,9 +30,7 @@
     vertical-align: middle;
     font-size: 0;
 }
-.social-button:hover {
-    cursor: pointer;
-}
+
 .social-button__icon {
     display: inline-block;
     width: 40px;
@@ -81,7 +79,26 @@
 .social-button_wa, .social-button_tg {
     display: none;
 }
+.social-button:hover {
+    background-color: #ff00ff;
+    cursor: pointer;
+}
+
+.social-button:active {
+    background-color: #000;
+    cursor: pointer;
+}
 @media all and (max-width: 767px) {
+    .social-button-container {
+        margin-left: -10px;
+        box-sizing: border-box;
+        width: calc(100% + 20px);
+    }
+
+    .social-button-container_inline-block {
+        display: none;
+    }
+
     .social-button {
         width: 16.666667%;
         height: 40px;

@@ -12,13 +12,24 @@ overflow: hidden;
 margin-top: -2px;
 }
 
+.expert .exp-image section {
+    width: 100%;
+    height: 100%;
+}
+
+.expert .exp-image section img {
+    width: 100%;
+    height: 100%;
+}
+
 .expert .exp-image .mask {
-    background: url('./../../../images/legacy/mask.png') no-repeat center top;
-    height: 150px;
+    background: url('/images/legacy/mask.png') no-repeat center top;
     position: absolute;
-    width: 150px;
     left: 0;
     top: 0;
+    right: 0;
+    bottom: 0;
+    background-size: 100% 100%;
 }
 
 .expert .opinion {
@@ -44,6 +55,17 @@ margin-top: -2px;
     color: #b3b3b3;
     line-height: 15px;
     margin-bottom: 5px;
+}
+
+@media all and (max-width: 767px) {
+    .expert .exp-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    .expert .opinion {
+        padding-left: 120px;
+    }
 }
 
 
@@ -77,6 +99,16 @@ line-height: 25px;
     line-height: 24px;
     font-style: italic;
 }
+@media all and (max-width: 767px) {
+    .cite img {
+        float: none;
+    }
+
+    .cite .padded {
+        padding-left: 0;
+        padding-top: 10px;
+    }
+}
 
 
 
@@ -101,7 +133,7 @@ line-height: 25px;
 
 .line2 {
     height: 8px;
-    background: url('./../../../images/legacy/hr.png') top no-repeat;
+    background: url('/images/legacy/hr.png') top no-repeat;
     opacity: 0.5;
     margin-bottom: 15px;
 }

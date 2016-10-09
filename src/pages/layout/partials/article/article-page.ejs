@@ -31,16 +31,16 @@
             <p>Первое предприятие серии — Томский электроламповый завод, когда-то стартовавший выпуском самолетных ламп для фронта,
                 а сегодня изготавливающий «лампочку томича».</p>
 
-                <div class="slider">
-                    <img src="http://i.kinja-img.com/gawker-media/image/upload/y6k2hs8svqdlp9vvewxt.jpg" alt="" />
-                    <img src="http://ichef.bbci.co.uk/news/624/cpsprodpb/618A/production/_89107942_thursday.jpg" alt="" />
-                    <img src="http://media2.intoday.in/indiatoday/images/stories//2016JUNE/4_062216123618.jpg" alt="" />
-                    <img src="https://d.ibtimes.co.uk/en/full/1411781/april-25-2014-masked-pro-russian-protester-sits-chair-he-poses-picture-inside-regional.jpg" alt="" />
-                    <img src="http://dp.topcovers4fb.com/wp-content/uploads/2015/11/Childhood-Love-Walk-Display-Picture.jpg" alt="" />
-                </div>
+            <div class="slider">
+                <img src="http://i.kinja-img.com/gawker-media/image/upload/y6k2hs8svqdlp9vvewxt.jpg" alt="" />
+                <img src="http://ichef.bbci.co.uk/news/624/cpsprodpb/618A/production/_89107942_thursday.jpg" alt="" />
+                <img src="http://media2.intoday.in/indiatoday/images/stories//2016JUNE/4_062216123618.jpg" alt="" />
+                <img src="https://d.ibtimes.co.uk/en/full/1411781/april-25-2014-masked-pro-russian-protester-sits-chair-he-poses-picture-inside-regional.jpg" alt="" />
+                <img src="http://dp.topcovers4fb.com/wp-content/uploads/2015/11/Childhood-Love-Walk-Display-Picture.jpg" alt="" />
+            </div>
 
-                <p>Первое предприятие серии — Томский электроламповый завод, когда-то стартовавший выпуском самолетных ламп для фронта,
-                    а сегодня изготавливающий «лампочку томича».</p>
+            <p>Первое предприятие серии — Томский электроламповый завод, когда-то стартовавший выпуском самолетных ламп для фронта,
+                а сегодня изготавливающий «лампочку томича».</p>
 
             <%- include('./new/header-flora') %>
 
@@ -92,23 +92,19 @@
 
 <div class="article-feedback-container">
   <div class="wrapper clearfix">
-      <%- include('./social-buttons', {
+        <%- include('./social-buttons', {
           addClass: "social-button-container_inline-block"
-      }) %>
-
-
-    <%- include('../common/subscribe-form', {
-        addClass: "subscribe-form_light subscribe-form_inline-block"
-    }) %>
-
-
+        }) %>
+        <%- include('../common/subscribe-form', {
+            addClass: "subscribe-form_light subscribe-form_inline-block"
+        }) %>
   </div>
 </div>
 
 <div class="wrapper">
   <div class="article-news-block">
     <div class="divider-hat"></div>
-    <div class="news-item-wrapper clearfix">
+    <div class="news-item-wrapper clearfix slider-news">
       <% for (var i=0; i<2; i++) { %>
           <%- include('../common/news-item') %>
           <%- include('../common/news-item_special') %>
@@ -119,6 +115,8 @@
     <div class="divider-moustache"></div>
   </div>
 </div>
+
+
 <div class="wrapper clearfix">
   <div class="article__comments-container">
     <!-- <div class="article-news-panel article-news-panel_bottom"> -->
@@ -130,6 +128,23 @@
       <div class="divider-flora"></div>
       <a href="">Посмотри! 6 каменных памятников архитектуры, которые мы теряем</a>
     </div>
-    <div class="article__comments-widget"></div>
+    <div class="article__comments-widget">
+        Сюда нужно поместить комментарии
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        Блок автоматически растягивается
+    </div>
   </div>
 </div>

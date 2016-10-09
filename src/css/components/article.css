@@ -18,16 +18,6 @@
   margin-bottom: 20px;
 }
 
-.article h2 {
-
-}
-
-.article h3 {/*
-  margin-bottom: 18px;
-  font-size: 32px;
-  line-height: 48px;*/
-}
-
 .article p {
   font-size: 16px;
   margin-bottom: 15px;
@@ -39,12 +29,6 @@
   height: auto;
   margin-bottom: 40px;
 }
-
-
-
-
-
-
 
 .article__comments-container .aside {
   min-width: 260px;
@@ -67,11 +51,9 @@
 }
 
 .article__comments-widget {
-  height: 295px;
   min-width: calc(100% - 444px);
   max-width: calc(100% - 264px);
   width: calc(75% - 4px);
-  /*margin-right: 260px;*/
   background: #ffffff;
   border: 2px solid #e6e6e6;
 }

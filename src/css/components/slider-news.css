@@ -1,0 +1,29 @@
+.slider-news {
+    max-height: none;
+}
+.slider-news .slick-slide {
+    margin-bottom: 10px;
+}
+
+.slider-news .slick-dots {
+    text-align: center;
+}
+
+.slider-news .slick-dots li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.slider-news .slick-dots li button {
+    color: transparent;
+    border: none;
+    width: 10px;
+    height: 10px;
+    background-color: #dedede;
+    border-radius: 50%;
+    padding: 0;
+}
+
+.slider-news .slick-dots .slick-active button {
+    background-color: #0fff00;
+}

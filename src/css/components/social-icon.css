@@ -9,25 +9,25 @@
 }
 
 .social-icon_fb {
-    background-image: url('./../../images/svg/footer_fb.svg');
+    background-image: url('/images/svg/footer_fb.svg');
 }
 
 .social-icon_insta {
-    background-image: url('./../../images/svg/footer_insta.svg');
+    background-image: url('/images/svg/footer_insta.svg');
 }
 
 .social-icon_rss {
-    background-image: url('./../../images/svg/footer_rss.svg');
+    background-image: url('/images/svg/footer_rss.svg');
 }
 
 .social-icon_tg {
-    background-image: url('./../../images/svg/footer_tg.svg');
+    background-image: url('/images/svg/footer_tg.svg');
 }
 
 .social-icon_tw {
-    background-image: url('./../../images/svg/footer_tw.svg');
+    background-image: url('/images/svg/footer_tw.svg');
 }
 
 .social-icon_vk {
-    background-image: url('./../../images/svg/footer_vk.svg');
+    background-image: url('/images/svg/footer_vk.svg');
 }

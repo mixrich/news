@@ -15,7 +15,7 @@
     position: absolute;
     top: 0;
     left: -30px;
-    background-image: url('./../../images/svg/floran.svg');
+    background-image: url('/images/svg/floran.svg');
     background-repeat: no-repeat;
     background-size: 20px 10px;
     background-position: left 10px;
@@ -23,11 +23,11 @@
 }
 
 .news-item:hover .divider-flora::before {
-    background-image: url('./../../images/svg/floran_white.svg');
+    background-image: url('/images/svg/floran_white.svg');
 }
 
 @media all and (max-width: 768px) {
     .news-item:hover .divider-flora::before {
-        background-image: url('./../../images/svg/floran.svg');
+        background-image: url('/images/svg/floran.svg');
     }
 }

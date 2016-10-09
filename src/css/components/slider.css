@@ -52,10 +52,22 @@
     right: calc(50% - 410px);
 }
 
-.slider img {
+.slider__image-container {
     width: 820px;
     height: 530px;
-    object-fit: contain;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.slider__image-container img {
+    position: absolute;
+    top:0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 530px;
+    width: auto;
+    display: block;
 }
 
 .slider .slick-dots {
@@ -102,7 +114,19 @@
         display: none;
     }
 
-    .slider img {
+    .slider__image-container {
+        width: auto;
         height: auto;
+        position: relative;
+        overflow: hidden;
+    }
+
+
+    .slider__image-container img {
+        transform: none;
+        position: static;
+        height: auto;
+        width: 100%;
+        display: block;
     }
 }

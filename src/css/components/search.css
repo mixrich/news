@@ -194,7 +194,7 @@
   z-index: 1;
   top: 0;
   right: 10px;
-  background: #ffffff url('./../../images/svg/arrow-down.svg') no-repeat top right; /* картинка кнопки со стрелкой вниз */
+  background: #ffffff url('/images/svg/arrow-down.svg') no-repeat top right; /* картинка кнопки со стрелкой вниз */
   background-position: top 15px right;
   background-size: auto;
 }
@@ -219,7 +219,7 @@
   height: 40px;
   padding: 10px 15px;
   font-size: 14px;
-  background-image: url('./../../images/calendar.png');
+  background-image: url('/images/calendar.png');
   background-position: top 6px right 10px;
   background-repeat: no-repeat;
   background-size: auto;
@@ -276,7 +276,7 @@
       font-size: 0;
       width: 20px;
       height: 20px;
-      background-image: url('./../../images/svg/cross.svg');
+      background-image: url('/images/svg/cross.svg');
       background-repeat: no-repeat;
       background-size: 18px 18px;
     }

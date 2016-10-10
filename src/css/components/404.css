@@ -1,0 +1,68 @@
+.not-found-page {
+    padding: 195px 0;
+    text-align: center;
+    background: white;
+}
+
+.not-found-page__content {
+    display: inline-block;
+    width: 250px;
+}
+
+.not-found-page__hat {
+    height: 70px;
+    background-image: url('/images/svg/hat.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: auto 100%;
+    margin-bottom: 20px;
+}
+
+.not-found-page__title {
+    font-size: 32px;
+    line-height: 44px;
+}
+
+.not-found-page__content a {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 40px;
+    height: 40px;
+    padding: 0 30px;
+    background: #0fff00;
+    cursor: pointer;
+    text-decoration: none;
+    color: #1a1917;
+    margin: 15px 0;
+}
+
+.not-found-page__content a:hover {
+    background: #ff00ff;
+    color: white;
+}
+
+.not-found-page__content a:active {
+    background: #000;
+    color: white;
+}
+
+.not-found-page__moustache {
+    height: 15px;
+    background-image: url('/images/svg/mustages.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: auto 100%;
+    margin-bottom: 10px;
+}
+
+.not-found-page__content span {
+    font-size: 12px;
+    color: #999999;
+}
+
+
+@media all and (max-width: 767px) {
+    .not-found-page {
+        padding: 40px 0;
+    }
+}

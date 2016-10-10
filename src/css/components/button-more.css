@@ -9,6 +9,8 @@
     font: inherit;
     font-weight: bold;
     cursor: pointer;
+    outline: none;
+
 }
 
 .button-more_darker {
@@ -17,4 +19,22 @@
 
 .button-more_margin {
     margin-bottom: 20px;
+}
+
+
+
+@media all and (min-width: 768px) {
+    .button-more:hover {
+        background-color: #ff00ff;
+        color: white;
+        outline: none;
+    }
+
+}
+
+.button-more:active {
+    background-color: #1a1917;
+    color: white;
+    outline: none;
+
 }

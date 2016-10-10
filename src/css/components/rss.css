@@ -33,9 +33,18 @@
 
 .rss__title {
     margin-left: 70px;
-    font-size: 16px;
-    line-height: 24px;
+    margin-bottom: 0;
 }
+
+.rss a {
+    color: #1a1917;
+    text-decoration: none;
+}
+
+.rss a:hover {
+    color: #ff00ff;
+    text-decoration: underline;
+*/}
 
 .rss_important .rss__title {
     font-size: 32px;
@@ -53,10 +62,14 @@
     line-height: 22px;
 }
 
+
 .rss-list_preview .rss__title {
+    margin-left: 55px;
+}
+
+.rss-list_preview .rss__title a {
     font-size: 14px;
     line-height: 22px;
-    margin-left: 55px;
 }
 
 @media all and (max-width: 767px) {

@@ -31,3 +31,23 @@
 .social-icon_vk {
     background-image: url('/images/svg/footer_vk.svg');
 }
+
+.footer li:hover .social-icon_fb {
+    background-image: url('/images/svg/footer_fb_mg.svg');
+}
+
+.footer li:hover .social-icon_insta {
+    background-image: url('/images/svg/footer_insta_mg.svg');
+}
+.footer li:hover .social-icon_rss {
+    background-image: url('/images/svg/footer_rss_mg.svg');
+}
+.footer li:hover .social-icon_tg {
+    background-image: url('/images/svg/footer_tg_mg.svg');
+}
+.footer li:hover .social-icon_tw {
+    background-image: url('/images/svg/footer_tw_mg.svg');
+}
+.footer li:hover .social-icon_vk {
+    background-image: url('/images/svg/footer_vk_mg.svg');
+}

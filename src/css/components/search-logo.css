@@ -23,5 +23,22 @@
 }
 
 .header-bottom-menu__item:hover .search-logo {
-    border: none !important;
+    background-image: url('/images/svg/search_magenta.svg');
+    border-bottom: 1px solid #ff00ff;
+    padding-bottom: 4px;
+}
+
+.header-bottom-menu__item:active .search-logo_small {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-image: url('/images/svg/search.svg');
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    background-position: center center;
+    background-color: transparent;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
 }

@@ -132,3 +132,9 @@
       width: calc(100% - 165px);
     }
 }
+
+.footer li a:hover {
+    color: #ff00ff;
+    border-bottom: 1px solid #ff00ff;
+    font-weight: bold;
+}

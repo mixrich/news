@@ -1,95 +1,79 @@
 .wrapper.article-wrapper {
-  max-width: 1680px;
-  padding: 0;
+    max-width: 1680px;
+    padding: 0;
 }
-
 .article {
-  width: calc(100% - 420px);
-  padding: 20px 0 10px;
-  background: #ffffff;
-  color: #1a1917;
-  float: left;
+    width: calc(100% - 420px);
+    padding: 20px 0 10px;
+    background: #ffffff;
+    color: #1a1917;
+    float: left;
 }
-
 .article h1 {
-  font-size: 60px;
-  line-height: 70px;
-  margin-top: 15px;
-  margin-bottom: 20px;
+    font-size: 60px;
+    line-height: 70px;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
-
 .article p {
-  font-size: 16px;
-  margin-bottom: 15px;
+    font-size: 16px;
+    margin-bottom: 15px;
 }
-
-.article > img {
-  display: block;
-  width: 100%;
-  height: auto;
-  margin-bottom: 40px;
+.article>img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px;
 }
-
 .article__comments-container:after {
     display: table;
     content: "";
     clear: both;
 }
-
 .article__comments-container .aside {
-  min-width: 260px;
-  max-width: 440px;
-  padding: 0 20px;
+    min-width: 260px;
+    max-width: 440px;
+    padding: 0 20px;
 }
-
-.aside_bottom,
-.aside_bottom > a {
-  font-family: "Fira Sans";
-  font-size: 14px;
-  line-height: 22px;
-  text-decoration: none;
-  text-transform: none;
-  color: #1a1917;
+.aside_bottom, .aside_bottom>a {
+    font-family: "Fira Sans";
+    font-size: 14px;
+    line-height: 22px;
+    text-decoration: none;
+    text-transform: none;
+    color: #1a1917;
 }
-
-.aside_bottom > p {
-  font-size: 16px;
+.aside_bottom>p {
+    font-size: 16px;
 }
-
 .article__comments-widget {
-  min-width: calc(100% - 444px);
-  max-width: calc(100% - 264px);
-  width: calc(75% - 4px);
-  background: #ffffff;
-  border: 2px solid #e6e6e6;
-  float: left;
+    min-width: calc(100% - 444px);
+    max-width: calc(100% - 264px);
+    width: calc(75% - 4px);
+    background: #ffffff;
+    border: 2px solid #e6e6e6;
+    float: left;
+    padding: 20px;
+    padding-top: 10px;
+    box-sizing: border-box;
 }
-
-
-.article > * {
+.article>* {
     max-width: 820px;
     margin-left: auto;
     margin-right: auto;
     box-sizing: border-box;
 }
-
-.article > .slider {
+.article>.slider {
     max-width: none;
     width: 100%;
 }
-
-
-
-
 @media all and (max-width: 1679px) {
     .article {
-      min-width: calc(100% - 420px);
-      max-width: calc(100% - 320px);
-      width: 75%;
+        min-width: calc(100% - 420px);
+        max-width: calc(100% - 320px);
+        width: 75%;
     }
-
 }
-
 @media all and (max-width: 1279px) {
     .article {
         width: calc(100% - 320px);
@@ -97,78 +81,62 @@
         padding-right: 40px;
         box-sizing: border-box;
     }
-
     .article__comments-container .aside {
-      display: block;
+        display: block;
     }
-
-
-    .article > .slider {
+    .article>.slider {
         max-width: none;
         width: calc(100% + 80px);
         margin-left: -40px;
     }
 }
-
-
 @media all and (max-width: 959px) {
     .article {
-      min-width: 100%;
-      max-width: 100%;
-      width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+        width: 100%;
     }
 }
-
-
-
 @media all and (max-width: 767px) {
     .article {
-      padding-left: 10px;
-      padding-right: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
-
-    .article > .slider {
+    .article>.slider {
         width: calc(100% + 20px);
         margin-left: -10px;
     }
-
     .article .wrapper {
-      padding: 0 10px;
+        padding: 0 10px;
     }
-
     .article h1 {
-      font-size: 32px;
-      line-height: 44px;
-      margin: 9px 0 26px;
+        font-size: 32px;
+        line-height: 44px;
+        margin: 9px 0 26px;
     }
-
     .article h3 {
-      font-size: 24px;
-      line-height: 36px;
-      margin-bottom: 26px;
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 26px;
     }
-
-    .article > img {
-      width: calc(100% + 20px);
-      margin-left: -10px;
-      margin-top: 20px;
-      margin-bottom: 26px;
+    .article>img {
+        width: calc(100% + 20px);
+        margin-left: -10px;
+        margin-top: 20px;
+        margin-bottom: 26px;
     }
-
     .article__comments-container .aside {
-      display: none;
+        display: none;
     }
-
     .article__comments-widget {
-      min-width: 100%;
-      max-width: 100%;
-      width: 100%;
-      margin-right: 0;
+        min-width: 100%;
+        max-width: 100%;
+        width: 100%;
+        margin-right: 0;
     }
-
-    .article > .fact {
-            margin-left: -10px;
-            margin-right: -10px;
-            margin-bottom: 34px;
+    .article>.fact {
+        margin-left: -10px;
+        margin-right: -10px;
+        margin-bottom: 34px;
     }
 }

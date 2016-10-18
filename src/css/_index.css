@@ -1,5 +1,7 @@
 @import "libs/reset.css";
 
+@import "components/fonts.css";
+
 
 @import "components/_common.css";
 @import "components/header.css";

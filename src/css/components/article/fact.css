@@ -1,7 +1,7 @@
 /* Fact component */
 .fact {
     padding: 40px 40px 36px 40px;
-    background: #f7f7f7 url('/images/svg/question_white.svg') -17px 10px no-repeat, #f7f7f7 url('/images/svg/question_white.svg') bottom 7px right 10px no-repeat;
+    background: #f7f7f7 url('../../../images/svg/question_white.svg') -17px 10px no-repeat, #f7f7f7 url('../../../images/svg/question_white.svg') bottom 7px right 10px no-repeat;
     background-size: auto 130px, auto 65px;
     margin-bottom: 40px;
 }

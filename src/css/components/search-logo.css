@@ -2,14 +2,14 @@
     width: 20px;
     height: 20px;
     display: inline-block;
-    background-image: url('/images/svg/search.svg');
+    background-image: url('../../images/svg/search.svg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     vertical-align: middle;
 }
 
 .search-logo_white {
-    background-image: url('/images/svg/search_white.svg');
+    background-image: url('../../images/svg/search_white.svg');
 }
 
 .search-logo_small {
@@ -23,7 +23,7 @@
 }
 
 .header-bottom-menu__item:hover .search-logo {
-    background-image: url('/images/svg/search_magenta.svg');
+    background-image: url('../../images/svg/search_magenta.svg');
     border-bottom: 1px solid #ff00ff;
     padding-bottom: 4px;
 }
@@ -32,7 +32,7 @@
     width: 15px;
     height: 15px;
     display: inline-block;
-    background-image: url('/images/svg/search.svg');
+    background-image: url('../../images/svg/search.svg');
     background-size: 15px 15px;
     background-repeat: no-repeat;
     vertical-align: middle;

@@ -23,7 +23,7 @@ margin-top: -2px;
 }
 
 .expert .exp-image .mask {
-    background: url('/images/legacy/mask.png') no-repeat center top;
+    background: url('../../../images/legacy/mask.png') no-repeat center top;
     position: absolute;
     left: 0;
     top: 0;
@@ -133,7 +133,7 @@ line-height: 25px;
 
 .line2 {
     height: 8px;
-    background: url('/images/legacy/hr.png') top no-repeat;
+    background: url('../../../images/legacy/hr.png') top no-repeat;
     opacity: 0.5;
     margin-bottom: 15px;
 }

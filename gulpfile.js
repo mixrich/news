@@ -70,3 +70,25 @@ gulp.task('dev', ['watch', 'serve']);
 gulp.task('deploy', function () {
   return deploy({branch: 'gh-pages'});
 });
+
+/* TEST */
+var cssBase64 = require('gulp-base64');
+var cleanCSS = require('gulp-clean-css');
+
+var rename = require('gulp-rename');
+var autoprefixer = require('gulp-autoprefixer');
+
+
+//Without options
+gulp.task('cssBase', function () {
+    return gulp.src('src/css/_index.css')
+        .pipe(cleanCSS())
+        .pipe(autoprefixer({
+            browsers: ['last 16 versions']
+        }))
+        .pipe(cssBase64({
+            debug: true
+        }))
+        .pipe(rename('style.base.css'))
+        .pipe(gulp.dest('dist/css'));
+});

@@ -16,21 +16,33 @@
     margin-bottom: 20px;
 }
 
+.article h2 {
+    font-size: 36px;
+    line-height: 52px;
+    margin-top: 15px;
+    margin-bottom: 13px;
+}
+
 .article h3 {
     font-size: 32px;
     line-height: 48px;
     margin-top: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 13px;
 }
 
 .article p {
     font-size: 16px;
     margin-bottom: 15px;
 }
+.article p > img {
+    width: 100% !important;
+    height: auto !important;
+}
+
 .article>img {
     display: block;
-    width: 100%;
-    height: auto;
+    width: 100% !important;
+    height: auto !important;
     margin-bottom: 40px;
 }
 .article__comments-container:after {
@@ -120,12 +132,17 @@
     .article h1 {
         font-size: 32px;
         line-height: 44px;
-        margin: 9px 0 26px;
+        margin: 9px 0;
     }
+
+    .article h3 {
+        font-size: 26px;
+        line-height: 38px;
+    }
+
     .article h3 {
         font-size: 24px;
         line-height: 36px;
-        margin-bottom: 26px;
     }
     .article>img {
         width: calc(100% + 20px);

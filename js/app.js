@@ -105,3 +105,12 @@ if (sliderNews.length && screen.width < 768) {
         $(slider).slick(sliderNewsConfig);
     });
 }
+
+
+
+$('#showMore').on('click', some);
+
+function some() {
+    console.log('func');
+    // do some stuff
+}

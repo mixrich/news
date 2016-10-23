@@ -56,3 +56,6 @@
 @import "components/article/reference.css";
 
 @import "components/404.css";
+
+@import "components/typography.css";
+@import "components/search-results.css";

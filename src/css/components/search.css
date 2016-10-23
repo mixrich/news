@@ -62,7 +62,7 @@
 
 .search__text {
   float: left;
-  width: 644px;
+  width: calc(100% - 135px);
   height: 50px;
   padding: 15px 20px;
   margin-right: 10px;

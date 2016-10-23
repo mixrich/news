@@ -4,8 +4,28 @@
     margin: 0 auto;
 }
 
+.wrapper-narrow {
+    max-width: 860px;
+    padding: 20px 40px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.wrapper-narrow_search {
+    padding: 60px 40px;
+}
+
+.wrapper-narrow_search > form {
+    padding-left: 75px;
+    box-sizing: border-box;
+}
+
 @media all and (max-width: 767px) {
-    .wrapper {
+    .wrapper, .wrapper-narrow {
       padding: 10px;
+    }
+
+    .wrapper-narrow_search > form {
+        padding-left: 0;
     }
 }

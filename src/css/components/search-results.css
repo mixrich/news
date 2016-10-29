@@ -32,8 +32,25 @@
     margin-top: 6px;
 }
 
+.search-results-item__link-wrapper {
+
+        color: #1a1917;
+        text-decoration: none
+}
+
+.search-results-item__link-wrapper:hover span {
+        text-decoration: none;
+}
+
+.search-results-item__link-wrapper:hover {
+
+        color: #1a1917;
+        text-decoration: underline;
+}
+
 .search-results-item__content {
     margin-left: 80px;
+
 }
 
 .search-results-item__title {

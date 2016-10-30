@@ -16,6 +16,17 @@
     height: 100px;
     overflow: hidden;
 }
+
+.reference-container a {
+    color: #1a1917;
+    text-decoration: none;
+}
+
+.reference-container a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
 .reference__photo {
     display: inline-block;
     vertical-align: middle;

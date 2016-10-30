@@ -47,10 +47,12 @@
 }
 .social-button__number {
     display: inline-block;
-    margin-left: 45px;
+    margin-left: 35px;
     font-size: 14px;
     vertical-align: middle;
     color: #ffffff;
+    text-align: center;
+    width: calc(100% - 40px);
 }
 .social-button_fb {
     background: #44629e;

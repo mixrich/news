@@ -32,14 +32,14 @@
 .subscribe-form__email::-webkit-input-placeholder {
     font-family: 'Fira Sans';
     font-size: 14px;
-    line-height: 22px;
+    line-height: 40px;
     vertical-align: middle;
     color: #1a1917;
 }
 .subscribe-form__email::-moz-placeholder {
     font-family: 'Fira Sans';
     font-size: 14px;
-    /*line-height: 22px;*/
+    line-height: 40px;
     vertical-align: middle;
     color: #1a1917;
 }
@@ -47,7 +47,7 @@
 .subscribe-form__email:-moz-placeholder {
     font-family: 'Fira Sans';
     font-size: 14px;
-    /*line-height: 22px;*/
+    line-height: 40px;
     vertical-align: middle;
     color: #1a1917;
 }
@@ -55,7 +55,7 @@
 .subscribe-form__email:-ms-input-placeholder {
     font-family: 'Fira Sans';
     font-size: 14px;
-    line-height: 22px;
+    line-height: 40px;
     vertical-align: middle;
     color: #1a1917;
 }

@@ -6,10 +6,12 @@
     background-size: 100% 100%;
     background-repeat: no-repeat;
     vertical-align: middle;
+    transition: background 300ms;
 }
 
 .search-logo_white {
     background-image: url('../../images/svg/search_white.svg');
+    transition: background 300ms;
 }
 
 .search-logo_small {
@@ -24,9 +26,15 @@
 
 .header-bottom-menu__item:hover .search-logo {
     background-image: url('../../images/svg/search_magenta.svg');
+    transition: background 300ms;
     border-bottom: 1px solid #ff00ff;
     padding-bottom: 4px;
 }
+.footer-menu__item:hover .search-logo {
+    background-image: url('../../images/svg/search_magenta.svg');
+    transition: background 300ms;
+}
+
 
 .header-bottom-menu__item:active .search-logo_small {
     width: 15px;

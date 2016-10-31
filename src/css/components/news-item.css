@@ -11,11 +11,15 @@
     color: black;
     box-sizing: border-box;
     text-decoration: none;
+    transition: background 300ms, color 300ms;
+
 }
 .news-item:hover {
     background: #1a1917;
     color: white;
     cursor: pointer;
+    transition: background 300ms, color 300ms;
+
 }
 .news-item:hover .news-item__label-container::before {
     display: block;
@@ -57,6 +61,7 @@
     padding: 4px;
     padding-bottom: 3px;
     line-height: 10px;
+    transition: background 300ms, color 300ms;
 }
 .news-item__content {
     padding: 20px;

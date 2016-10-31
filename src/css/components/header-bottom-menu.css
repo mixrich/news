@@ -22,11 +22,16 @@
 .header-bottom-menu__link {
     color: #1a1917;
     text-decoration: none;
+    display: inline-block;
+    line-height: 16px;
+    border-bottom: 1px solid transparent;
+    transition: border 300ms, color 300ms;
 }
 
 .header-bottom-menu__item:hover .header-bottom-menu__link {
     color: #ff00ff;
     border-bottom: 1px solid #ff00ff;
+    transition: border 300ms, color 300ms;
 }
 
 .header-bottom-menu__item:active .header-bottom-menu__link {

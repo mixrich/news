@@ -10,6 +10,7 @@
     font-weight: bold;
     cursor: pointer;
     outline: none;
+    transition: background 300ms, color 300ms;
 
 }
 
@@ -28,6 +29,7 @@
         background-color: #ff00ff;
         color: white;
         outline: none;
+        transition: background 300ms, color 300ms;
     }
 
 }

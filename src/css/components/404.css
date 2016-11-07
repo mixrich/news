@@ -1,12 +1,21 @@
 .not-found-page {
-    padding: 195px 0;
+    /*padding: 195px 0 0;*/
     text-align: center;
     background: white;
+
+    position: absolute;
+    top: 97px;
+    left: 0;
+    right: 0;
+    bottom: 152px;
 }
 
 .not-found-page__content {
-    display: inline-block;
     width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .not-found-page__hat {
@@ -61,8 +70,20 @@
 }
 
 
+@media all and (max-width: 855px) {
+    .not-found-page {
+        bottom: 242px;
+    }
+}
+
 @media all and (max-width: 767px) {
     .not-found-page {
         padding: 40px 0;
+        position: static;
+    }
+    .not-found-page__content {
+        position: static;
+        margin: 0 auto;
+        transform: none;
     }
 }

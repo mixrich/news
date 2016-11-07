@@ -1,0 +1,114 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'i',
+1 verbose cli   'gulp-font-base64' ]
+2 info using npm@2.15.1
+3 info using node@v4.4.3
+4 verbose install initial load of C:\Workplace\news\package.json
+5 warn package.json rychagov.info@1.0.0 No README data
+6 verbose installManyTop reading scoped package data from C:\Workplace\news\node_modules\autoprefixer\package.json
+7 verbose installManyTop reading scoped package data from C:\Workplace\news\node_modules\browser-sync\package.json
+8 verbose installManyTop reading scoped package data from C:\Workplace\news\node_modules\gulp\package.json
+9 verbose installManyTop reading scoped package data from C:\Workplace\news\node_modules\gulp-autoprefixer\package.json
+10 verbose installManyTop reading scoped package data from C:\Workplace\news\node_modules\gulp-base64\package.json
+11 verbose installManyTop reading scoped package data from C:\Workplace\news\node_modules\gulp-clean-css\package.json
+12 verbose installManyTop reading scoped package data from C:\Workplace\news\node_modules\gulp-concat\package.json
+13 verbose installManyTop reading scoped package data from C:\Workplace\news\node_modules\gulp-css-base64\package.json
+14 verbose installManyTop reading scoped package data from C:\Workplace\news\node_modules\gulp-cssfont64\package.json
+15 verbose installManyTop reading scoped package data from C:\Workplace\news\node_modules\gulp-ejs\package.json
+16 verbose installManyTop reading scoped package data from C:\Workplace\news\node_modules\gulp-gh-pages\package.json
+17 verbose installManyTop reading scoped package data from C:\Workplace\news\node_modules\gulp-rename\package.json
+18 verbose installManyTop reading scoped package data from C:\Workplace\news\node_modules\gulp-requirejs-optimize\package.json
+19 verbose installManyTop reading scoped package data from C:\Workplace\news\node_modules\gulp-shell\package.json
+20 verbose installManyTop reading scoped package data from C:\Workplace\news\node_modules\gulp-sitemap\package.json
+21 verbose installManyTop reading scoped package data from C:\Workplace\news\node_modules\gulp-stylus\package.json
+22 verbose installManyTop reading scoped package data from C:\Workplace\news\node_modules\requirejs\package.json
+23 info package.json gulp-ejs@2.2.0 No license field.
+24 info package.json gulp-rename@1.2.2 No license field.
+25 verbose readDependencies loading dependencies from C:\Workplace\news\package.json
+26 silly cache add args [ 'gulp-font-base64', null ]
+27 verbose cache add spec gulp-font-base64
+28 silly cache add parsed spec Result {
+28 silly cache add   raw: 'gulp-font-base64',
+28 silly cache add   scope: null,
+28 silly cache add   name: 'gulp-font-base64',
+28 silly cache add   rawSpec: '',
+28 silly cache add   spec: 'latest',
+28 silly cache add   type: 'tag' }
+29 silly addNamed gulp-font-base64@latest
+30 verbose addNamed "latest" is being treated as a dist-tag for gulp-font-base64
+31 info addNameTag [ 'gulp-font-base64', 'latest' ]
+32 silly mapToRegistry name gulp-font-base64
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry data Result {
+35 silly mapToRegistry   raw: 'gulp-font-base64',
+35 silly mapToRegistry   scope: null,
+35 silly mapToRegistry   name: 'gulp-font-base64',
+35 silly mapToRegistry   rawSpec: '',
+35 silly mapToRegistry   spec: 'latest',
+35 silly mapToRegistry   type: 'tag' }
+36 silly mapToRegistry uri https://registry.npmjs.org/gulp-font-base64
+37 verbose addNameTag registry:https://registry.npmjs.org/gulp-font-base64 not in flight; fetching
+38 verbose request uri https://registry.npmjs.org/gulp-font-base64
+39 verbose request no auth needed
+40 info attempt registry request try #1 at 23:36:50
+41 verbose request id aac9217296751c58
+42 http request GET https://registry.npmjs.org/gulp-font-base64
+43 http 404 https://registry.npmjs.org/gulp-font-base64
+44 verbose headers { 'content-type': 'application/json',
+44 verbose headers   'cache-control': 'max-age=0',
+44 verbose headers   'content-length': '2',
+44 verbose headers   'accept-ranges': 'bytes',
+44 verbose headers   date: 'Wed, 02 Nov 2016 16:36:51 GMT',
+44 verbose headers   via: '1.1 varnish',
+44 verbose headers   age: '0',
+44 verbose headers   connection: 'keep-alive',
+44 verbose headers   'x-served-by': 'cache-bma7027-BMA',
+44 verbose headers   'x-cache': 'MISS',
+44 verbose headers   'x-cache-hits': '0',
+44 verbose headers   'x-timer': 'S1478104611.382306,VS0,VE364',
+44 verbose headers   vary: 'Accept-Encoding' }
+45 silly get cb [ 404,
+45 silly get   { 'content-type': 'application/json',
+45 silly get     'cache-control': 'max-age=0',
+45 silly get     'content-length': '2',
+45 silly get     'accept-ranges': 'bytes',
+45 silly get     date: 'Wed, 02 Nov 2016 16:36:51 GMT',
+45 silly get     via: '1.1 varnish',
+45 silly get     age: '0',
+45 silly get     connection: 'keep-alive',
+45 silly get     'x-served-by': 'cache-bma7027-BMA',
+45 silly get     'x-cache': 'MISS',
+45 silly get     'x-cache-hits': '0',
+45 silly get     'x-timer': 'S1478104611.382306,VS0,VE364',
+45 silly get     vary: 'Accept-Encoding' } ]
+46 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/gulp-font-base64
+46 verbose stack     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:264:12)
+46 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:242:14)
+46 verbose stack     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:172:14)
+46 verbose stack     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:199:22)
+46 verbose stack     at emitTwo (events.js:87:13)
+46 verbose stack     at Request.emit (events.js:172:7)
+46 verbose stack     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1036:10)
+46 verbose stack     at emitOne (events.js:82:20)
+46 verbose stack     at Request.emit (events.js:169:7)
+46 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:963:12)
+47 verbose statusCode 404
+48 verbose pkgid gulp-font-base64
+49 verbose cwd C:\Workplace\news
+50 error Windows_NT 10.0.14393
+51 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "i" "gulp-font-base64"
+52 error node v4.4.3
+53 error npm  v2.15.1
+54 error code E404
+55 error 404 Registry returned 404 for GET on https://registry.npmjs.org/gulp-font-base64
+55 error 404
+55 error 404 'gulp-font-base64' is not in the npm registry.
+55 error 404 You should bug the author to publish it (or use the name yourself!)
+55 error 404 It was specified as a dependency of 'rychagov.info'
+55 error 404
+55 error 404 Note that you can also install from a
+55 error 404 tarball, folder, http url, or git url.
+56 verbose exit [ 1, true ]

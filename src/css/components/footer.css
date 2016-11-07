@@ -3,6 +3,10 @@
     color: white;
     font-size: 12px;
     line-height: 18px;
+
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .footer__column {
@@ -112,9 +116,9 @@
 
 
 @media all and (max-width: 855px) {
-    .footer {
+    /*.footer {
       position: relative;
-    }
+    }*/
 
     .footer .wrapper {
       padding: 20px;
@@ -150,5 +154,11 @@
 
     .footer-social__item:nth-child(2n) {
       width: calc(100% - 165px);
+    }
+}
+
+@media all and (max-width: 767px) {
+    .footer {
+      position: relative;
     }
 }

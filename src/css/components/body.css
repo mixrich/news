@@ -4,8 +4,43 @@ body {
     font-size: 18px;
     line-height: 24px;
 
+
     -webkit-font-smoothing: subpixel-antialiased !important;
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility:    hidden;
     -ms-backface-visibility:     hidden;
+
+
+    min-height: 100%;
+    padding-bottom: 152px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+body.white {
+    background-color: white;
+}
+
+html {
+    height: 100%;
+    min-height: 600px;
+}
+
+@media all and (max-width: 855px) {
+    body {
+        padding-bottom: 241px;
+    }
+    html {
+        height: 100%;
+        min-height: 700px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    body {
+        padding-bottom: 0;
+    }
+    html {
+        min-height: 400px;
+    }
 }

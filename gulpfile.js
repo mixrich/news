@@ -76,3 +76,14 @@ gulp.task('dev', ['watch', 'serve']);
 gulp.task('deploy', function () {
   return deploy({branch: 'gh-pages'});
 });
+
+
+
+
+var cssfont64 = require('gulp-cssfont64');
+
+gulp.task('ttf', function () {
+    gulp.src('fonts/initial/*.ttf')
+        .pipe(cssfont64())
+        .pipe(gulp.dest('fonts/1'));
+});

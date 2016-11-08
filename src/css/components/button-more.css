@@ -7,7 +7,7 @@
     border: 0;
     border-radius: 0;
     font: inherit;
-    font-weight: bold;
+    font-weight: 500;
     cursor: pointer;
     outline: none;
     transition: background 300ms, color 300ms;

@@ -68,7 +68,7 @@
     padding-top: 15px;
 }
 .news-item__title {
-    font-weight: bold;
+    font-weight: 500;
 }
 .news-item__title_full {
     font-size: 24px;

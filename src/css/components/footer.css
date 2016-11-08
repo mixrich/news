@@ -30,7 +30,7 @@
 .footer-menu__item {
     display: inline-block;
     margin-bottom: 10px;
-    font-weight: bold;
+    font-weight: 600;
     min-width: 40%;
 
 }
@@ -57,7 +57,7 @@
 
 
 .footer-links__item b {
-    font-weight: bold;
+    font-weight: 600;
     letter-spacing: 0.04em;
 }
 
@@ -81,7 +81,7 @@
     color: white;
     text-transform: uppercase;
     margin-bottom: 10px;
-    font-weight: bold;
+    font-weight: 600;
     letter-spacing: 0.04em;
 }
 
@@ -110,7 +110,7 @@
 .footer li a:hover {
     color: #ff00ff;
     border-bottom: 1px solid #ff00ff;
-    font-weight: bold;
+    font-weight: 600;
     transition: color 300ms, border 300ms;
 }
 

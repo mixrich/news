@@ -21,7 +21,7 @@ if (categoriesShowAllButton) {
 var slickConfig = {
     centerMode: true,
     centerPadding: '60px',
-    slidesToShow: 3,
+    slidesToShow: 1,
     arrows: true,
     variableWidth: true,
     prevArrow: '<button type="button" class="slick-prev">&#8592</button>',

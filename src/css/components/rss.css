@@ -39,12 +39,15 @@
 .rss a {
     color: #1a1917;
     text-decoration: none;
+    transition: color 300ms;
+
 }
 
 .rss a:hover {
     color: #ff00ff;
     text-decoration: underline;
-*/}
+    transition: color 300ms;
+}
 
 .rss_important .rss__title {
     font-size: 32px;

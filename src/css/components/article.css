@@ -13,9 +13,11 @@
 .article a {
     color: #ff00ff;
     text-decoration: none;
+    transition: color 300ms;
 }
 .article a:hover {
     color: #0fff00;
+    transition: color 300ms;
 }
 
 

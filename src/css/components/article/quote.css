@@ -39,8 +39,13 @@
     height: 140px;
     margin: 8px 20px 15px 0;
     float: left;
-    background: #ff00ff;
 }
+
+.quote__author__photo img {
+    width: 100%;
+    height: auto;
+}
+
 .quote__author__info {
     display: block;
     margin-top: -8px;

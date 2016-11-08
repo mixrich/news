@@ -95,9 +95,13 @@
     margin-right: auto;
     box-sizing: border-box;
 }
-.article > .slider, .article > .article-image {
+.article > .slider, .article > .article-image  {
     max-width: none;
     width: 100%;
+}
+
+.article > .article-image {
+    margin-bottom: 15px;
 }
 
 @media all and (max-width: 1679px) {

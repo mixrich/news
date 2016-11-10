@@ -85,12 +85,12 @@
 
 
 @media all and (min-width: 768px) {
-    .news-item__title.news-item__title_overflow {
+    .news-item__title {
         max-height: 48px;
         overflow: hidden;
     }
 
-    .news-item__title_full.news-item__title_overflow {
+    .news-item__title_full {
         max-height: 180px;
         overflow: hidden;
     }

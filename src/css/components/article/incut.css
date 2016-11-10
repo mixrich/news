@@ -2,6 +2,7 @@
 .incut {
     width: 100%;
     margin-bottom: 40px;
+    clear: both;
 }
 .incut .divider-hat {
     margin: 0;

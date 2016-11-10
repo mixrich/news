@@ -6,6 +6,7 @@
     box-sizing: border-box;
     background: url('../../../images/svg/quote_left.svg') 0 0 no-repeat;
     background-size: 60px 60px;
+    clear: both;
 }
 .quote {
     padding: 40px 40px 35px 40px;

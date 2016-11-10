@@ -2,6 +2,7 @@
     margin: 0 auto;
     margin-bottom: 40px;
     position: relative;
+    clear: both;
 }
 .reference {
     display: block;

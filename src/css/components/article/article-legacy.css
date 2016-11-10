@@ -1,6 +1,7 @@
 .expert {
     font-size: 14px;
     margin: 25px auto;
+    clear: both;
 }
 
 .expert .exp-image {
@@ -75,6 +76,7 @@ margin-top: -2px;
 
 .cite {
         margin: 20px auto;
+        clear: both;
 }
 
 .cite img {
@@ -119,6 +121,7 @@ line-height: 25px;
     font-size: 14px;
     line-height: 21px;
     margin-bottom: 20px;
+    clear: both;
 }
 
 .picture img {
@@ -136,6 +139,7 @@ line-height: 25px;
     background: url('../../../images/legacy/hr.png') top no-repeat;
     opacity: 0.5;
     margin-bottom: 15px;
+    clear: both;
 }
 
 .o_h3fleron h3 {
@@ -156,4 +160,5 @@ line-height: 25px;
     padding: 20px;
     box-shadow: 10px 10px 0 0 #f0f0f0;
     margin-bottom: 40px;
+    clear: both;
 }

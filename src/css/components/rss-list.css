@@ -4,6 +4,9 @@
 
 .rss-list_preview {
   margin-left: 0;
+  height: 469px;
+  margin-bottom: 15px;
+  overflow: hidden;
 }
 
 .rss-list__item {

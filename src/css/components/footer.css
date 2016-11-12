@@ -110,7 +110,7 @@
 .footer li a:hover {
     color: #ff00ff;
     border-bottom: 1px solid #ff00ff;
-    font-weight: 600;
+    /*font-weight: 600;*/
     transition: color 300ms, border 300ms;
 }
 

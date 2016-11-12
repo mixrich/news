@@ -17,12 +17,27 @@
     border: none !important;
     border-radius: 0 !important;
     background-color: #0fff00 !important;
-    padding: 0 7px !important;
+    padding: 0 40px 0 7px !important;
+    position: relative;
+}
+
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice:after {
+    display: block;
+    content: "";
+    height: 100%;
+    position: absolute;
+    width: 2px;
+    top: 0;
+    background: white;
+    right: 31px;
 }
 
 .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
-    margin-right: 5px !important;
     color: #1a1917 !important;
+    position: absolute;
+    right: 7px;
+    font-size: 28px
 }
 
 .select2-dropdown {

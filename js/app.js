@@ -101,9 +101,9 @@ $(document).keydown(function(e) {
 
 $(document).scroll(function(){
     if ($(this).scrollTop() > 500) {
-        $('#to-the-top').fadeIn(600);
+        $('#to-the-top').addClass('visible');
     } else {
-        $('#to-the-top').fadeOut(600);
+        $('#to-the-top').removeClass('visible');
     }
 });
 

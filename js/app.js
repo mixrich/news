@@ -69,7 +69,7 @@ if (sliders.length) {
 }
 
 //slider-news - Слайдер новостей внизу страницы статьи. Инициализируется только на мобиле
-// 
+//
 // var sliderNewsConfig = {
 //     arrows: false,
 //     centerMode: false,
@@ -97,4 +97,19 @@ $(document).keydown(function(e) {
             location.hash = '';
         }
     }
+});
+
+$(document).scroll(function(){
+    if ($(this).scrollTop() > 500) {
+        $('#to-the-top').fadeIn(600);
+    } else {
+        $('#to-the-top').fadeOut(600);
+    }
+});
+
+
+$("#to-the-top").click(function() {
+    $('html, body').animate({
+        scrollTop: $('body').offset().top
+    }, 500);
 });

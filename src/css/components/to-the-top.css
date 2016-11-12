@@ -1,0 +1,56 @@
+.to-the-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    padding: 15px;
+    padding-left: 52px;
+    border: 1px solid #999;
+    background-color: #f7f7f7;
+    box-shadow: 0 0 7px 1px #999;
+    display: none;
+    transition: box-shadow 300ms;
+}
+
+
+
+
+.to-the-top__icon {
+    width: 24px;
+    height: 33px;
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-image: url('../../images/svg/up-arrow.svg');
+    background-size: 24px 33px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+@media all and (min-width: 768px) {
+    .to-the-top:hover {
+        box-shadow: 0 0 7px 1px #333;
+        transition: box-shadow 300ms;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .to-the-top__text {
+        display: none
+    }
+
+    .to-the-top__icon {
+        position: static;
+        transform: none;
+        width: 16px;
+        height: 22px;
+        background-size: 16px 22px;
+    }
+
+    .to-the-top {
+        padding: 10px;
+        right: 10px;
+        bottom: 10px;
+    }
+}

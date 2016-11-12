@@ -1,18 +1,3 @@
-// Categories
-var categoriesShowAllButton = document.getElementById('js-categories-show-all');
-
-if (categoriesShowAllButton) {
-    categoriesShowAllButton.addEventListener('click', function() {
-        this.style.display='none';
-
-        var toogles = document.getElementsByClassName('categories__toogle');
-        if (toogles) {
-            for (var i=0; i<toogles.length; i++) {
-                toogles[i].classList.remove('hidden');
-            }
-        }
-    });
-}
 // Slider
 
 var slickConfig = {
@@ -84,20 +69,32 @@ if (sliders.length) {
 }
 
 //slider-news - Слайдер новостей внизу страницы статьи. Инициализируется только на мобиле
+// 
+// var sliderNewsConfig = {
+//     arrows: false,
+//     centerMode: false,
+//     slidesToShow: 1,
+//     adaptiveHeight: true,
+//     variableWidth: false,
+//     dots: true
+// };
+//
+// var sliderNews = $('.slider-news');
+//
+// if (sliderNews.length && screen.width < 768) {
+//     sliderNews.each(function(index, slider){
+//         $(slider).slick(sliderNewsConfig);
+//     });
+// }
 
-var sliderNewsConfig = {
-    arrows: false,
-    centerMode: false,
-    slidesToShow: 1,
-    adaptiveHeight: true,
-    variableWidth: false,
-    dots: true
-};
 
-var sliderNews = $('.slider-news');
 
-if (sliderNews.length && screen.width < 768) {
-    sliderNews.each(function(index, slider){
-        $(slider).slick(sliderNewsConfig);
-    });
-}
+
+$(document).keydown(function(e) {
+    // ESCAPE key pressed
+    if (e.keyCode == 27) {
+        if (location.hash == "#search") {
+            location.hash = '';
+        }
+    }
+});

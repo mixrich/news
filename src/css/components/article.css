@@ -4,7 +4,7 @@
 }
 .article {
     width: calc(100% - 420px);
-    padding: 20px 0 10px;
+    padding: 10px 0 10px;
     background: #ffffff;
     color: #1a1917;
     float: left;
@@ -103,6 +103,10 @@
     margin-left: auto;
     margin-right: auto;
     box-sizing: border-box;
+}
+
+.article> div {
+    margin-bottom: 15px
 }
 .article > .slider, .article > .article-image  {
     max-width: none;

@@ -1,0 +1,15 @@
+.article-tags-container {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.article-tags li + li:before {
+    content: ", ";
+}
+.article-tags {
+    display: inline;
+    list-style: none;
+}
+.article-tags li {
+    display: inline;
+}

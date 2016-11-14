@@ -1,0 +1,12 @@
+.taglist li+li:before {
+    content: ", ";
+}
+.taglist {
+    list-style: none;
+}
+.taglist li {
+    display: inline;
+}
+.taglist h4 {
+    margin-top: 10px;
+}

@@ -14,6 +14,8 @@
     display: block;
     float: left;
     margin-right: 10px;
+    width: 90px;
+    height: 40px;
     padding: 5px;
     vertical-align: middle;
     border-radius: 1px;
@@ -22,6 +24,13 @@
     background: #44629e;
     transition: background 300ms !important;
     cursor: pointer;
+
+}
+.social-button:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
     font-size: 0;
 }
 
@@ -29,6 +38,11 @@
     display: inline-block;
     width: 40px;
     height: 30px;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    font-size: 0;
+    border-right: 1px solid #ffffff;
     vertical-align: middle;
     background-repeat: no-repeat;
     background-position: center;
@@ -36,14 +50,12 @@
 }
 .social-button__number {
     display: inline-block;
+    margin-left: 35px;
     font-size: 14px;
     vertical-align: middle;
     color: #ffffff;
     text-align: center;
-    line-height: 30px;
-    height: 30px;
-    padding: 0 10px 0 15px;
-    border-left: 1px solid #fff;
+    width: calc(100% - 40px);
 }
 .social-button_fb {
     background: #44629e;
@@ -59,9 +71,11 @@
 }
 .social-button_tw {
     background: #22b9eb;
+    width: 40px;
 }
 .social-button_tw .social-button__icon {
     background-image: url('../../images/svg/share_tw_white.svg');
+    border: none;
 }
 
 .social-button_tw .social-button__number {
@@ -112,6 +126,8 @@
     .social-button__icon {
         width: 100%;
         height: 100%;
+        top: 0;
+        border: 0;
         background-size: auto 100%;
     }
     .social-button__number {

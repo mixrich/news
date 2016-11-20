@@ -1,3 +1,14 @@
 .cke_editable .slider {
     height: auto;
+    padding: 40px;
+    background: #ccc;
+}
+
+.cke_editable .slider:before, .cke_editable .slider:after {
+    display: none;
+}
+
+.cke_editable .slider img {
+    height: 100px;
+    width: auto;
 }

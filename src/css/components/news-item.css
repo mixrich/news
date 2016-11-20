@@ -53,6 +53,8 @@
 }
 .news-item__title {
     font-weight: 500;
+    transition: color 300ms;
+    color: black;
 }
 
 
@@ -93,6 +95,15 @@
         cursor: pointer;
         transition: background 300ms, color 300ms;
 
+    }
+
+    .news-item:hover .news-item__title {
+        color: white;
+        transition: color 300ms;
+    }
+
+    .news-item_special:hover .news-item__title {
+        color: black;
     }
 
     .news-item:hover .news-item__label-container::before {

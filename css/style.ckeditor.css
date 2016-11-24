@@ -12,3 +12,7 @@
     height: 100px;
     width: auto;
 }
+
+.cke_editable .mask {
+  display: none;
+}

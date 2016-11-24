@@ -1,24 +1,24 @@
-.header-article {
+.header-article, .article .header-article {
     font-size: 60px;
     line-height: 70px;
     margin-top: 15px;
     margin-bottom: 20px;
 }
 
-.header-news {
+.header-news, .article .header-news {
     font-size: 48px;
     line-height: 60px;
     margin-bottom: 20px;
 }
 
 @media all and (max-width: 767px) {
-    .header-article {
+    .header-article, .article .header-article {
         font-size: 32px;
         line-height: 44px;
         margin: 9px 0;
     }
 
-    .header-news {
+    .header-news, .article .header-news {
         font-size: 32px;
         line-height: 44px;
     }

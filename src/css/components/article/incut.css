@@ -7,13 +7,7 @@
 .incut .divider-hat {
     margin: 0;
 }
-.incut .divider-moustache {
-    margin: 0;
-    background-image: url('../../../images/svg/mustages.svg');
-}
-.incut .divider-moustache::before, .incut .divider-moustache::after {
-    border-color: #1a1917;
-}
+
 .incut__content {
     margin: 20px auto 10px;
     font-size: 40px;

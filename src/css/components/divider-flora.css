@@ -6,7 +6,7 @@
     margin-left: 30px;
     position: relative;
     transition: border 300ms;
-
+    height: 0;
 }
 
 .divider-flora::before {

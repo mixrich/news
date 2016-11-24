@@ -3,6 +3,7 @@
     padding-top: 30px;
     margin-bottom: 5px;
     position: relative;
+    height: 0;
 
     background-image: url('../../images/svg/mustages_green.svg');
     background-repeat: no-repeat;
@@ -10,7 +11,7 @@
     background-position: center center;
 
     transition: background 300ms, border 300ms;
-    
+
 }
 
 .divider-moustache::before, .divider-moustache::after {

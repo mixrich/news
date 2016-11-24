@@ -7,8 +7,11 @@
 }
 
 .rss-news__header {
-    font-size: 60px;
+    /*font-size: 60px;
     line-height: 70px;
+    margin-bottom: 20px;*/
+    font-size: 48px;
+    line-height: 60px;
     margin-bottom: 20px;
 }
 
@@ -33,7 +36,6 @@
   .rss-news__header {
       font-size: 32px;
       line-height: 44px;
-      margin-bottom: 24px;
   }
 
   .rss-news__filter {

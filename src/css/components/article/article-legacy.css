@@ -134,6 +134,17 @@ line-height: 25px;
 
 
 
+.line3 {
+    height: 8px;
+    background-image: url('../../../images/svg/floran.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: auto 100%;
+    margin-bottom: 15px;
+    clear: both;
+}
+
+
 .line2 {
     height: 8px;
     background: url('../../../images/legacy/hr.png') top no-repeat;
@@ -141,6 +152,8 @@ line-height: 25px;
     margin-bottom: 15px;
     clear: both;
 }
+
+
 
 .o_h3fleron h3 {
     font-weight: bold;

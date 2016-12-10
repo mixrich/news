@@ -4,8 +4,9 @@
 .taglist {
     list-style: none;
 }
-.taglist li {
+ul.taglist > li {
     display: inline;
+    margin-left: 0;
 }
 .taglist h4 {
     margin-top: 10px;

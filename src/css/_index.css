@@ -46,7 +46,6 @@
 @import "components/article-news-block.css";
 
 @import "components/author.css";
-@import "components/taglist.css";
 
 
 @import "components/article/article-legacy.css";
@@ -58,6 +57,8 @@
 @import "components/article/tags.css";
 
 @import "components/404.css";
+
+@import "components/taglist.css";
 
 @import "components/typography.css";
 @import "components/search-results.css";

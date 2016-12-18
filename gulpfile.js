@@ -87,3 +87,23 @@ gulp.task('ttf', function () {
         .pipe(cssfont64())
         .pipe(gulp.dest('fonts/1'));
 });
+
+
+
+var cleanCSS = require('gulp-clean-css');
+var rename = require('gulp-rename');
+var cssBase64 = require('gulp-base64');
+var autoprefixer = require('gulp-autoprefixer');
+
+gulp.task('compile-admin-css', function () {
+    gulp.src('src/css/_admin.css')
+        .pipe(cleanCSS())
+        .pipe(autoprefixer({
+            browsers: ['last 16 versions']
+        }))
+        .pipe(cssBase64({
+            debug: true
+        }))
+        .pipe(rename('style.ckeditor.css'))
+        .pipe(gulp.dest('dist/css'));
+});

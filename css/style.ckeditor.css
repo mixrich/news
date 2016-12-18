@@ -1,1 +1,18 @@
-.cke_editable .mask,.cke_editable .slider:after,.cke_editable .slider:before{display:none}.cke_editable .slider{height:auto;padding:40px;background:#ccc}.cke_editable .slider img{height:100px!important;width:auto}
+.cke_editable .slider {
+    height: auto;
+    padding: 40px;
+    background: #ccc;
+}
+
+.cke_editable .slider:before, .cke_editable .slider:after {
+    display: none;
+}
+
+.cke_editable .slider img {
+    height: 100px !important;
+    width: auto;
+}
+
+.cke_editable .mask {
+    display: none;
+}

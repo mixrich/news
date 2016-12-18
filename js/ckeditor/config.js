@@ -27,7 +27,7 @@ CKEDITOR.editorConfig = function( config ) {
 	config.basicEntities = false;
 	config.allowedContent = true;
 	config.bodyClass = 'article';
-	config.contentsCss = '/css/??style.base.css,jquery.spellchecker.min.css';
+	config.contentsCss = ['/css/style.base.css','/css/style.ckeditor.css'];
 //	config.forcePasteAsPlainText = true;
 
 	config.extraPlugins = 'notification,notificationaggregator,o_expert,o_expert2,o_h3fleron,o_fleron,o_fleron1,o_graypic,o_cite,o_insert,o2_slider,o2_h3fleron,o2_fact,o2_reference,o2_bigimage,o2_quote1,o2_quote2,o2_quote3,wordcount,autosave,jqueryspellchecker';

@@ -33,8 +33,6 @@
 
 
 @import "libs/slick.css";
-@import "components/slider.css";
-@import "components/slider-news.css";
 
 @import "components/search.css";
 
@@ -55,6 +53,10 @@
 @import "components/article/quote.css";
 @import "components/article/reference.css";
 @import "components/article/tags.css";
+
+
+@import "components/slider.css";
+@import "components/slider-news.css";
 
 @import "components/404.css";
 

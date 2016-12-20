@@ -78,11 +78,13 @@
     transform: translateX(-50%);
     padding: 0;
     margin: 0;
+    width: 100%;
+    text-align: center;
 }
 
 .slider .slick-dots li {
     display: inline-block;
-    margin-right: 10px;
+    margin: 0 5px;
 }
 
 .slider .slick-dots li button{
@@ -126,7 +128,7 @@
     .slider__image-container img {
         transform: none;
         position: static;
-        height: auto;
+        height: auto !important;
         width: 100%;
         display: block;
     }
